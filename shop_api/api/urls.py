@@ -1,5 +1,5 @@
 from django.conf.urls import url,include
-from api.views import course,account,newspapers,shoppingcar,payment
+from api.views import course,account,newspapers,shoppingcar,payment,alipay,order
 
 urlpatterns = [
     # url(r'^/course/$', course.CouserView.as_view()),
@@ -23,4 +23,6 @@ urlpatterns = [
 
     url(r'^payment/$', payment.PaymentViewSet.as_view()),
 
+    url(r'^order/$', order.OrderViewSet.as_view()),
+    url(r'^alipay/$', alipay.AlipayView.as_view()),
 ]

@@ -140,11 +140,26 @@ REST_FRAMEWORK = {  # 配置渲染器
 }
 # 支付相关配置
 APPID = "2016092200570009"
-NOTIFY_URL = "http://127.0.0.1:8001/update_order/"  # 需公网IP
-RETURN_URL = "http://127.0.0.1:8001/pay_result/"
+# 服务器异步通知页面路径 需http: // 格式的完整路径，不能加?id = 123 这类自定义参数，必须外网可以正常访问
+NOTIFY_URL = "http://127.0.0.1:8001/api/v1/alipay/"
+# 页面跳转同步通知页面路径 需http: // 格式的完整路径，不能加?id = 123 这类自定义参数，必须外网可以正常访问
+RETURN_URL = "http://127.0.0.1:8001/api/v1/alipay/"
+# 商户私钥路径
 PRI_KEY_PATH = "api/keys/app_private_2048.txt"
+# 支付宝公钥路径
 PUB_KEY_PATH = "api/keys/alipay_public_2048.txt"
 
+# 签名方式(当前只支持RSA和RSA2)
+SIGN_TYPE = "RSA2"
+# 字符编码格式
+CHARSET = "utf-8"
+
+# 支付宝网关(如果是线上环境的话, dev 这三个字去掉即可)
+GATEWAY_URL_DEV = "https://openapi.alipaydev.com/gateway.do"
+GATEWAY_URL = "https://openapi.alipay.com/gateway.do"
+
+# 异步通知参数DOC(支付宝会主动发起POST请求)
+# notify_doc = "https://docs.open.alipay.com/270/105902/"
 
 # ############# 微信 ##############
 WECHAT_CONFIG = {

@@ -8,7 +8,7 @@ import hashlib
 
 
 # ########################### 1.课程相关 ################################
-class Course(models.Model):
+class TCourse(models.Model):
     """
     课程表
     """
@@ -28,10 +28,10 @@ class CourseDetail(models.Model):
     """
     课程详细
     """
-    course = models.OneToOneField(to='Course')
+    course = models.OneToOneField(to='TCourse')
     slogon = models.CharField(verbose_name='口号',max_length=255)
     why = models.CharField(verbose_name='为什么要学？',max_length=255)
-    recommend_courses = models.ManyToManyField(verbose_name='推荐课程',to='Course',related_name='rc')
+    recommend_courses = models.ManyToManyField(verbose_name='推荐课程',to='TCourse',related_name='rc')
 
     def __str__(self):
         return "课程详细："+self.course.title
@@ -42,7 +42,7 @@ class Chapter(models.Model):
     """
     num =  models.IntegerField(verbose_name='章节')
     name = models.CharField(verbose_name='章节名称',max_length=32)
-    course = models.ForeignKey(verbose_name='所属课程',to='Course')
+    course = models.ForeignKey(verbose_name='所属课程',to='TCourse')
 
     def __str__(self):
         return self.name
@@ -50,100 +50,14 @@ class Chapter(models.Model):
 class UserInfo(models.Model):
     user = models.CharField(max_length=32)
     pwd = models.CharField(max_length=32)
+    balance = models.PositiveIntegerField(default=0, verbose_name="可提现和使用余额")
 
 class Token(models.Model):
     user = models.OneToOneField(UserInfo)
     token = models.CharField(max_length=32)
 
-class DegreeCourse(models.Model):
-    """学位课程"""
-    name = models.CharField(max_length=128, unique=True)
-    course_img = models.CharField(max_length=255, verbose_name="缩略图")
-    brief = models.TextField(verbose_name="学位课程简介", )
-    total_scholarship = models.PositiveIntegerField(verbose_name="总奖学金(贝里)", default=40000)
-    mentor_compensation_bonus = models.PositiveIntegerField(verbose_name="本课程的导师辅导费用(贝里)", default=15000)
-    period = models.PositiveIntegerField(verbose_name="建议学习周期(days)", default=150)  # 为了计算学位奖学金
-    prerequisite = models.TextField(verbose_name="课程先修要求", max_length=1024)
-    teachers = models.ManyToManyField("Teacher", verbose_name="课程讲师")
 
-    # 用于GenericForeignKey反向查询， 不会生成表字段，切勿删除
-    # coupon = GenericRelation("Coupon")
-
-    # 用于GenericForeignKey反向查询，不会生成表字段，切勿删除
-    degreecourse_price_policy = GenericRelation("PricePolicy")
-
-    # 查询常见问题
-    asked_question = GenericRelation("OftenAskedQuestion")
-
-    def __str__(self):
-        return self.name
-
-    class Meta:
-        verbose_name_plural = "03.学位课"
-
-class TopicCourse(models.Model):
-    """专题课程"""
-    name = models.CharField(max_length=128, unique=True)
-    course_img = models.CharField(max_length=255)
-    sub_category = models.ForeignKey("CourseSubCategory")  #
-
-    course_type_choices = ((0, '付费'), (1, 'VIP专享'), (2, '学位课程'))
-    course_type = models.SmallIntegerField(choices=course_type_choices)
-
-    degree_course = models.ForeignKey("DegreeCourse", blank=True, null=True, help_text="若是学位课程，此处关联学位表")
-
-    brief = models.TextField(verbose_name="课程（模块）概述", max_length=2048)
-    level_choices = ((0, '初级'), (1, '中级'), (2, '高级'))
-    level = models.SmallIntegerField(choices=level_choices, default=1)
-    pub_date = models.DateField(verbose_name="发布日期", blank=True, null=True)
-    period = models.PositiveIntegerField(verbose_name="建议学习周期(days)", default=7)
-    order = models.IntegerField("课程顺序", help_text="从上一个课程数字往后排")
-    attachment_path = models.CharField(max_length=128, verbose_name="课件路径", blank=True, null=True)
-    status_choices = ((0, '上线'), (1, '下线'), (2, '预上线'))
-    status = models.SmallIntegerField(choices=status_choices, default=0)
-    template_id = models.SmallIntegerField("前端模板id", default=1)
-
-    # 如果是专题课时，获取相关优惠券
-    # coupon = GenericRelation("Coupon")
-
-    # 用于GenericForeignKey反向查询，不会生成表字段，切勿删除
-    price_policy = GenericRelation("PricePolicy")
-
-    # 查询常见问题
-    asked_question = GenericRelation("OftenAskedQuestion")
-
-    class Meta:
-        verbose_name_plural = "06.课程或学位模块详细"
-
-
-class PricePolicy(models.Model):
-    """价格与有课程效期表"""
-    content_type = models.ForeignKey(ContentType)  # 关联course or degree_course，即关联的是哪张表
-    object_id = models.PositiveIntegerField()      # 对应degree_course or course的id，比如ContentType中degree_course对应的degree_course表的id
-
-    #不会在数据库生成列，只用于帮助你进行添加和查询
-    content_object = GenericForeignKey('content_type', 'object_id')
-
-    valid_period_choices = (
-        (1, '1天'),
-        (3, '3天'),
-        (7, '1周'), (14, '2周'),
-        (30, '1个月'),
-        (60, '2个月'),
-        (90, '3个月'),
-        (180, '6个月'), (210, '12个月'),
-        (540, '18个月'), (720, '24个月'),
-    )
-    valid_period = models.SmallIntegerField(choices=valid_period_choices)
-    price = models.FloatField()
-
-    class Meta:
-        unique_together = ("content_type", 'object_id', "valid_period")
-        verbose_name_plural = "15. 价格策略"
-
-    def __str__(self):
-        return "%s(%s)%s" % (self.content_object, self.get_valid_period_display(), self.price)
-
+#=================================================================
 class CourseCategory(models.Model):
     """课程大类, e.g 前端  后端..."""
     name = models.CharField(max_length=64, unique=True)
@@ -166,21 +80,24 @@ class CourseSubCategory(models.Model):
     class Meta:
         verbose_name_plural = "02.课程子类"
 
-class Teacher(models.Model):
-    """讲师、导师表"""
-    name = models.CharField(max_length=32)
-    role_choices = ((0, '讲师'), (1, '导师'))
-    role = models.SmallIntegerField(choices=role_choices, default=0)
-    title = models.CharField(max_length=64, verbose_name="职位、职称")
-    signature = models.CharField(max_length=255, help_text="导师签名", blank=True, null=True)
-    image = models.CharField(max_length=128)
-    brief = models.TextField(max_length=1024)
+class DegreeCourse(models.Model):
+    """学位课程"""
+    name = models.CharField(max_length=128, unique=True)
+    course_img = models.CharField(max_length=255, verbose_name="缩略图")
+    brief = models.TextField(verbose_name="学位课程简介", )
+    total_scholarship = models.PositiveIntegerField(verbose_name="总奖学金(贝里)", default=40000)
+    mentor_compensation_bonus = models.PositiveIntegerField(verbose_name="本课程的导师辅导费用(贝里)", default=15000)
+    # 用于GenericForeignKey反向查询， 不会生成表字段，切勿删除
+    coupon = GenericRelation("Coupon")
+    # 为了计算学位奖学金
+    period = models.PositiveIntegerField(verbose_name="建议学习周期(days)", default=150)
+    prerequisite = models.TextField(verbose_name="课程先修要求", max_length=1024)
+    teachers = models.ManyToManyField("Teacher", verbose_name="课程讲师")
+    # 用于GenericForeignKey反向查询，不会生成表字段，切勿删除
+    degreecourse_price_policy = GenericRelation("PricePolicy")
 
     def __str__(self):
         return self.name
-
-    class Meta:
-        verbose_name_plural = "04.导师或讲师"
 
 class Scholarship(models.Model):
     """学位课程奖学金"""
@@ -194,6 +111,37 @@ class Scholarship(models.Model):
     class Meta:
         verbose_name_plural = "05.学位课奖学金"
 
+class Course(models.Model):
+    """课程"""
+    name = models.CharField(max_length=128, unique=True)
+    course_img = models.CharField(max_length=255)
+    sub_category = models.ForeignKey("CourseSubCategory")
+    course_type_choices = ((0, '付费'), (1, 'VIP专享'), (2, '学位课程'))
+    course_type = models.SmallIntegerField(choices=course_type_choices)
+    degree_course = models.ForeignKey("DegreeCourse", blank=True, null=True, help_text="若是学位课程，此处关联学位表")
+    brief = models.TextField(verbose_name="课程概述", max_length=2048)
+    level_choices = ((0, '初级'), (1, '中级'), (2, '高级'))
+    level = models.SmallIntegerField(choices=level_choices, default=1)
+    pub_date = models.DateField(verbose_name="发布日期", blank=True, null=True)
+    period = models.PositiveIntegerField(verbose_name="建议学习周期(days)", default=7)
+    order = models.IntegerField("课程顺序", help_text="从上一个课程数字往后排")
+    attachment_path = models.CharField(max_length=128, verbose_name="课件路径", blank=True, null=True)
+    status_choices = ((0, '上线'), (1, '下线'), (2, '预上线'))
+    status = models.SmallIntegerField(choices=status_choices, default=0)
+    template_id = models.SmallIntegerField("前端模板id", default=1)
+    coupon = GenericRelation("Coupon")
+    # 用于GenericForeignKey反向查询，不会生成表字段，切勿删除
+    price_policy = GenericRelation("PricePolicy")
+
+    def __str__(self):
+        return "%s(%s)" % (self.name, self.get_course_type_display())
+
+    def save(self, *args, **kwargs):
+        if self.course_type == 2:
+            if not self.degree_course:
+                raise ValueError("学位课程必须关联对应的学位表")
+        super(Course, self).save(*args, **kwargs)
+
 class CourseDetail_new(models.Model):
     """课程详情页内容"""
     course = models.OneToOneField("Course")
@@ -204,7 +152,7 @@ class CourseDetail_new(models.Model):
     what_to_study_brief = models.TextField(verbose_name="我将学到哪些内容")
     career_improvement = models.TextField(verbose_name="此项目如何有助于我的职业生涯")
     prerequisite = models.TextField(verbose_name="课程先修要求", max_length=1024)
-    recommend_courses = models.ManyToManyField("TopicCourse", related_name="recommend_by", blank=True)
+    recommend_courses = models.ManyToManyField("Course", related_name="recommend_by", blank=True)
     teachers = models.ManyToManyField("Teacher", verbose_name="课程讲师")
 
     def __str__(self):
@@ -249,7 +197,7 @@ class CourseOutline(models.Model):
 
 class CourseChapter(models.Model):
     """课程章节"""
-    course = models.ForeignKey("TopicCourse", related_name='coursechapters')
+    course = models.ForeignKey("Course", related_name='coursechapters')
     chapter = models.SmallIntegerField(verbose_name="第几章", default=1)
     name = models.CharField(max_length=128)
     summary = models.TextField(verbose_name="章节介绍", blank=True, null=True)
@@ -262,6 +210,18 @@ class CourseChapter(models.Model):
     def __str__(self):
         return "%s:(第%s章)%s" % (self.course, self.chapter, self.name)
 
+class Teacher(models.Model):
+    """讲师、导师表"""
+    name = models.CharField(max_length=32)
+    role_choices = ((0, '讲师'), (1, '导师'))
+    role = models.SmallIntegerField(choices=role_choices, default=0)
+    title = models.CharField(max_length=64, verbose_name="职位、职称")
+    signature = models.CharField(max_length=255, help_text="导师签名", blank=True, null=True)
+    image = models.CharField(max_length=128)
+    brief = models.TextField(max_length=1024)
+
+    def __str__(self):
+        return self.name
 
 class CourseSection(models.Model):
     """课时目录"""
@@ -283,6 +243,32 @@ class CourseSection(models.Model):
 
     def __str__(self):
         return "%s-%s" % (self.chapter, self.name)
+
+
+class PricePolicy(models.Model):
+    """价格与有课程效期表"""
+    content_type = models.ForeignKey(ContentType)  # 关联course or degree_course
+    object_id = models.PositiveIntegerField()
+    content_object = GenericForeignKey('content_type', 'object_id')
+
+    # course = models.ForeignKey("Course")
+    valid_period_choices = ((1, '1天'), (3, '3天'),
+                            (7, '1周'), (14, '2周'),
+                            (30, '1个月'),
+                            (60, '2个月'),
+                            (90, '3个月'),
+                            (180, '6个月'), (210, '12个月'),
+                            (540, '18个月'), (720, '24个月'),
+                            )
+    valid_period = models.SmallIntegerField(choices=valid_period_choices)
+    price = models.FloatField()
+
+    class Meta:
+        unique_together = ("content_type", 'object_id', "valid_period")
+
+    def __str__(self):
+        return "%s(%s)%s" % (self.content_object, self.get_valid_period_display(), self.price)
+
 
 class Homework(models.Model):
     """章节作业"""
@@ -306,50 +292,50 @@ class Homework(models.Model):
         return "%s - %s" % (self.chapter, self.title)
 
 #
-# class CourseReview(models.Model):
-#     """课程评价"""
-#     enrolled_course = models.OneToOneField("EnrolledCourse")
-#     about_teacher = models.FloatField(default=0, verbose_name="讲师讲解是否清晰")
-#     about_video = models.FloatField(default=0, verbose_name="内容实用")
-#     about_course = models.FloatField(default=0, verbose_name="课程内容通俗易懂")
-#     review = models.TextField(max_length=1024, verbose_name="评价")
-#     disagree_number = models.IntegerField(default=0, verbose_name="踩")
-#     agree_number = models.IntegerField(default=0, verbose_name="赞同数")
-#     tags = models.ManyToManyField("Tags", blank=True, verbose_name="标签")
-#     date = models.DateTimeField(auto_now_add=True, verbose_name="评价日期")
-#     is_recommend = models.BooleanField("热评推荐", default=False)
-#     hide = models.BooleanField("不在前端页面显示此条评价", default=False)
+class CourseReview(models.Model):
+    """课程评价"""
+    enrolled_course = models.OneToOneField("EnrolledCourse")
+    about_teacher = models.FloatField(default=0, verbose_name="讲师讲解是否清晰")
+    about_video = models.FloatField(default=0, verbose_name="内容实用")
+    about_course = models.FloatField(default=0, verbose_name="课程内容通俗易懂")
+    review = models.TextField(max_length=1024, verbose_name="评价")
+    disagree_number = models.IntegerField(default=0, verbose_name="踩")
+    agree_number = models.IntegerField(default=0, verbose_name="赞同数")
+    tags = models.ManyToManyField("Tags", blank=True, verbose_name="标签")
+    date = models.DateTimeField(auto_now_add=True, verbose_name="评价日期")
+    is_recommend = models.BooleanField("热评推荐", default=False)
+    hide = models.BooleanField("不在前端页面显示此条评价", default=False)
+
+    def __str__(self):
+        return "%s-%s" % (self.enrolled_course.course, self.review)
+
+    class Meta:
+        verbose_name_plural = "13. 课程评价（购买课程后才能评价）"
 #
-#     def __str__(self):
-#         return "%s-%s" % (self.enrolled_course.course, self.review)
 #
-#     class Meta:
-#         verbose_name_plural = "13. 课程评价（购买课程后才能评价）"
-#
-#
-# class DegreeCourseReview(models.Model):
-#     """学位课程评价
-#     为了以后可以定制单独的评价内容，所以不与普通课程的评价混在一起，单独建表
-#     """
-#     enrolled_course = models.ForeignKey("EnrolledDegreeCourse")
-#     course = models.ForeignKey("Course", verbose_name="评价学位模块", blank=True, null=True,
-#                                help_text="不填写即代表评价整个学位课程", limit_choices_to={'course_type': 2})
-#     about_teacher = models.FloatField(default=0, verbose_name="讲师讲解是否清晰")
-#     about_video = models.FloatField(default=0, verbose_name="视频质量")
-#     about_course = models.FloatField(default=0, verbose_name="课程")
-#     review = models.TextField(max_length=1024, verbose_name="评价")
-#     disagree_number = models.IntegerField(default=0, verbose_name="踩")
-#     agree_number = models.IntegerField(default=0, verbose_name="赞同数")
-#     tags = models.ManyToManyField("Tags", blank=True, verbose_name="标签")
-#     date = models.DateTimeField(auto_now_add=True, verbose_name="评价日期")
-#     is_recommend = models.BooleanField("热评推荐", default=False)
-#     hide = models.BooleanField("不在前端页面显示此条评价", default=False)
-#
-#     def __str__(self):
-#         return "%s-%s" % (self.enrolled_course, self.review)
-#
-#     class Meta:
-#         verbose_name_plural = "14. 学位课评价（购买课程后才能评价）"
+class DegreeCourseReview(models.Model):
+    """学位课程评价
+    为了以后可以定制单独的评价内容，所以不与普通课程的评价混在一起，单独建表
+    """
+    enrolled_course = models.ForeignKey("EnrolledDegreeCourse")
+    course = models.ForeignKey("Course", verbose_name="评价学位模块", blank=True, null=True,
+                               help_text="不填写即代表评价整个学位课程", limit_choices_to={'course_type': 2})
+    about_teacher = models.FloatField(default=0, verbose_name="讲师讲解是否清晰")
+    about_video = models.FloatField(default=0, verbose_name="视频质量")
+    about_course = models.FloatField(default=0, verbose_name="课程")
+    review = models.TextField(max_length=1024, verbose_name="评价")
+    disagree_number = models.IntegerField(default=0, verbose_name="踩")
+    agree_number = models.IntegerField(default=0, verbose_name="赞同数")
+    tags = models.ManyToManyField("Tags", blank=True, verbose_name="标签")
+    date = models.DateTimeField(auto_now_add=True, verbose_name="评价日期")
+    is_recommend = models.BooleanField("热评推荐", default=False)
+    hide = models.BooleanField("不在前端页面显示此条评价", default=False)
+
+    def __str__(self):
+        return "%s-%s" % (self.enrolled_course, self.review)
+
+    class Meta:
+        verbose_name_plural = "14. 学位课评价（购买课程后才能评价）"
 #
 
 # ######################## 深科技相关 ########################
@@ -437,7 +423,7 @@ class Account(models.Model):
     username = models.CharField("用户名", max_length=64, unique=True)
     password = models.CharField("密码", max_length=64)
 
-    uid = models.CharField(max_length=64, unique=True, help_text='微信用户绑定和CC视频统计')  # 与第3方交互用户信息时，用这个uid,以避免泄露敏感用户信息
+    uid = models.CharField(max_length=64, unique=True, help_text='微信用户绑定和CC视频统计',blank=True, null=True)  # 与第3方交互用户信息时，用这个uid,以避免泄露敏感用户信息
     openid = models.CharField(max_length=128, blank=True, null=True)
     # 贝里余额
     balance = models.PositiveIntegerField(default=0, verbose_name="可提现和使用余额")
@@ -544,7 +530,7 @@ class CouponRecord(models.Model):
     status = models.SmallIntegerField(choices=status_choices, default=0)
     get_time = models.DateTimeField(verbose_name="领取时间", help_text="用户领取时间")
     used_time = models.DateTimeField(blank=True, null=True, verbose_name="使用时间")
-    # order = models.ForeignKey("Order", blank=True, null=True, verbose_name="关联订单")  # 一个订单可以有多个优惠券
+    order = models.ForeignKey("Order", blank=True, null=True, verbose_name="关联订单")  # 一个订单可以有多个优惠券
 
     class Meta:
         verbose_name_plural = "32. 用户优惠券"
@@ -782,7 +768,7 @@ class TransactionRecord(models.Model):
     """贝里交易纪录"""
     account = models.ForeignKey("Account")
     amount = models.IntegerField("金额")
-    # balance = models.IntegerField("账户余额")
+    balance = models.IntegerField("账户余额",blank=True, null=True)
     transaction_type_choices = ((0, '收入'), (1, '支出'), (2, '退款'), (3, "提现"))  # 2 为了处理 订单过期未支付时，锁定期贝里的回退
     transaction_type = models.SmallIntegerField(choices=transaction_type_choices)
 
@@ -871,3 +857,155 @@ class StuFollowUpRecord(models.Model):
 
     def __str__(self):
         return "%s --%s --%s" % (self.enrolled_degree_course, self.record, self.date)
+
+class Question(models.Model):
+    """课程提问"""
+    name = models.CharField(max_length=128, blank=True, null=True, verbose_name="问题概要", db_index=True)
+    question_type_choices = ((0, '专题课程问题'), (1, '学位课程问题'))
+    question_type = models.SmallIntegerField(choices=question_type_choices, default=0, verbose_name="来源")
+    account = models.ForeignKey("Account", verbose_name="提问者")
+    degree_course = models.ForeignKey("DegreeCourse", blank=True, null=True)  # 若是针对整个学位课程的提问，关联这个
+    course_section = models.ForeignKey("CourseSection", blank=True, null=True)  # 针对整个学位课程的提问不需关联特定课时
+    content = models.TextField(max_length=1024, verbose_name="问题内容")
+    enquiries_count = models.IntegerField(default=0, verbose_name="同问者计数")
+    attachment_path = models.CharField(max_length=128, blank=True, null=True, verbose_name="附件路径", help_text="问题记录的截图等")
+    date = models.DateTimeField(auto_now_add=True)
+    status_choices = ((0, '待解答'), (1, '已解答'), (2, '已关闭'))
+    status = models.SmallIntegerField(choices=status_choices, default=0)
+
+    def __str__(self):
+        return "%s" % self.name
+
+    def save(self, *args, **kwargs):
+        if self.degree_course is None and self.course_section is None:
+            raise ValueError("提的问题必须关联学位课程或具体课时！")
+
+        super(Question, self).save(*args, **kwargs)
+
+class Answer(models.Model):
+    """问题解答"""
+    question = models.ForeignKey("Question", verbose_name="问题")
+    content = models.TextField(verbose_name="回答")
+    account = models.ForeignKey("Account", verbose_name="回答者")
+    agree_number = models.IntegerField(default=0, verbose_name="点赞数")
+    disagree_number = models.IntegerField(default=0, verbose_name="点踩数")
+    answer_date = models.DateTimeField(auto_now=True, verbose_name="日期")
+
+    def __str__(self):
+        return "%s" % self.question
+
+
+class AnswerComment(models.Model):
+    """答案回复评论"""
+    answer = models.ForeignKey("Answer")
+    reply_to = models.ForeignKey("self", blank=True, null=True, verbose_name="基于评论的评论")
+    comment = models.TextField(max_length=512, verbose_name="评论内容")
+    attachment_path = models.CharField(max_length=128, blank=True, null=True, verbose_name="附件路径", help_text="跟进记录的截图等")
+    account = models.ForeignKey("Account", verbose_name="评论者")
+    date = models.DateTimeField(auto_now_add=True)
+
+    def __str__(self):
+        return "%s - %s" % (self.account, self.comment)
+
+
+class QACounter(models.Model):
+    """ 问题和回答的赞同数量统计 """
+    content_type = models.ForeignKey(ContentType)
+    object_id = models.PositiveIntegerField()
+    content_object = GenericForeignKey('content_type', 'object_id')
+    data_type_choices = ((0, '点赞'), (1, '踩'), (2, '同问'))
+    data_type = models.SmallIntegerField(choices=data_type_choices)
+    account = models.ForeignKey("Account")
+    date = models.DateTimeField(auto_now=True)
+
+    class Meta:
+        unique_together = ("content_type", 'object_id', "account")
+
+class Tags(models.Model):
+    tag_type_choices = ((0, '文章标签'), (1, '课程评价标签'), (2, '用户感兴趣技术标签'))
+    tag_type = models.SmallIntegerField(choices=tag_type_choices)
+    name = models.CharField(max_length=64, unique=True, db_index=True)
+
+    def __str__(self):
+        return self.name
+
+
+class Notification(models.Model):
+    """消息通知纪录"""
+    account = models.ForeignKey("Account", blank=True, null=True, help_text="不填用户的话代表给未注册用户发通知")
+    notify_obj = models.CharField(max_length=64, verbose_name='通知对象', help_text='account_id,email、mobile、open_id')
+    content = models.TextField(max_length=1024)
+    date = models.DateTimeField(auto_now_add=True, verbose_name='消息添加时间')
+    msg_type_choices = (
+        (0, "奖惩通知"),
+        (1, "订单通知"),
+        (2, "专题课程报名"),
+        (3, "课程过期"),
+        (4, "课程评论"),
+        (5, "优惠券通知"),
+        (6, "课程开课通知"),
+        (7, "学位课程作业"),
+        (8, "学位课程问答"),
+        (9, "资讯阅读通知"),
+        (11, "课程问答"),
+        (12, "学位课程报名"),
+        (13, "导师分配通知"),
+        (15, "学位学习事务通知"),
+        (16, "其他"),
+    )
+
+    msg_type = models.SmallIntegerField(choices=msg_type_choices)
+    notify_type_choices = ((0, '站内信'), (1, '短信'), (2, '邮件'), (3, '微信'), (4, '其它'))
+    notify_type = models.SmallIntegerField(choices=notify_type_choices)
+
+    # notify_belong_choices = ((0, '站内事务通知'), (4, '课程相关通知'), (2, '资讯相关通知'))
+    # notify_belong = models.SmallIntegerField(choices=notify_belong_choices)
+
+    content_type = models.ForeignKey(ContentType, blank=True, null=True)
+    object_id = models.PositiveIntegerField(blank=True, null=True, verbose_name="关联对象")
+    content_object = GenericForeignKey('content_type', 'object_id')
+
+    apply_now = models.BooleanField(default=False, help_text="如果需要立刻通知用户，请勾选", verbose_name="是否立即执行")
+    applied_status = models.BooleanField(default=False, help_text="消息通知是否已被执行", verbose_name="是否已被执行")
+    excution_status = models.BooleanField("执行是否成功", default=False)
+    excution_result = models.TextField("执行返回结果", blank=True, null=True)
+    applied_date = models.DateTimeField(blank=True, null=True, verbose_name="通知日期时间", help_text="若不是立刻执行，需设置执行时间")
+
+    def __str__(self):
+        return '%s-%s-%s' % (self.notify_obj, self.msg_type, self.notify_type)
+
+
+class MentorGroup(models.Model):
+    """导师组"""
+
+    name = models.CharField(max_length=64, unique=True)
+    brief = models.TextField(blank=True, null=True)
+    mentors = models.ManyToManyField("Account", limit_choices_to={'role': 1})
+
+    def __str__(self):
+        return self.name
+
+
+class Feedback(models.Model):
+    """用户反馈表"""
+    name = models.CharField(max_length=32, blank=True, null=True)
+    contact = models.CharField(max_length=64, blank=True, null=True)
+    feedback_type_choices = ((0, '网站优化建议'), (1, '烂!我想吐槽'), (2, '网站bug反馈'))
+    feedback_type = models.SmallIntegerField(choices=feedback_type_choices)
+    content = models.TextField(max_length=1024)
+    date = models.DateTimeField(auto_now_add=True)
+
+    def __str__(self):
+        return self.name
+
+
+class BulletScreen(models.Model):
+    account = models.ForeignKey("Account")  # 发弹幕的人
+    content = models.CharField(max_length=255)  # 弹幕详情
+    course_section = models.ForeignKey("CourseSection")  # 具体发送到哪个课时(视频 )
+    play_point = models.IntegerField()  # 发送弹幕的时间处于该课时视频的具体秒数
+    date = models.DateTimeField(auto_now_add=True)  # 弹幕存储时间
+
+
+
+

@@ -29,8 +29,7 @@ class ShoppingCarViewSet(APIView):
             policy_id = int(request.data.get('policyid'))
 
             # 2. 获取专题课信息
-            course = models.TopicCourse.objects.get(id=course_id)
-
+            course = models.Course.objects.get(id=course_id)
             # 3. 获取该课程相关的所有价格策略
             price_policy_list = course.price_policy.all()
             price_policy_dict = {}

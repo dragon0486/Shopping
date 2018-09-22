@@ -14,7 +14,7 @@
 """
 from rest_framework.views import APIView
 from rest_framework.response import Response
-from django.shortcuts import HttpResponse
+from django.shortcuts import HttpResponse,render
 from api import models
 import uuid
 from utils.response import BaseResponse
@@ -26,6 +26,8 @@ class AuthView(APIView):
     #     obj['Access-Control-Allow-Origin'] = "*"
     #     obj['Access-Control-Allow-Headers'] = "Content-Type"
     #     return obj
+    authentication_classes = []
+    permission_classes = []
 
     def post(self,request,*args,**kwargs):
         """

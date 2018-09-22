@@ -20,6 +20,7 @@ urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^api/(?P<version>[v1|v2]+)/', include('api.urls')),
     url(r'^test/$', course.test),
+
     url(r'^pay/$', pay.index),
     url(r'^pay_result/$', pay.pay_result),
     url(r'^update_order/$', pay.update_order),
