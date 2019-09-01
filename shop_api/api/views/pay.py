@@ -7,16 +7,17 @@ from django.conf import settings
 def aliPay():
     # 沙箱测试地址：https://openhome.alipay.com/platform/appDaily.htm?tab=info
     # 支付相关配置
-    APPID = "2016092200570009"
-    NOTIFY_URL = "http://127.0.0.1:8001/update_order/"   # 需公网IP
-    RETURN_URL = "http://127.0.0.1:8001/pay_result/"
+    APPID = "2018091761447240"
+    # APPID = "2016092200570009" # 线上的应用需要支付宝审核通过后appid才生效
+    NOTIFY_URL = "http://3.18.144.186:8000/website/pay_result"   # 需公网IP
+    RETURN_URL = "http://127.0.0.1:8000/website/pay_result"
     PRI_KEY_PATH = "api/keys/app_private_2048.txt"
     PUB_KEY_PATH = "api/keys/alipay_public_2048.txt"
 
     obj = AliPay(
-        appid=settings.APPID,
-        app_notify_url=settings.NOTIFY_URL,  # 如果支付成功，支付宝会向这个地址发送POST请求（校验是否支付已经完成）
-        return_url=settings.RETURN_URL,  # 如果支付成功，重定向回到你的网站的地址。
+        appid=APPID,
+        app_notify_url=NOTIFY_URL,  # 如果支付成功，支付宝会向这个地址发送POST请求（校验是否支付已经完成）
+        return_url=RETURN_URL,  # 如果支付成功，重定向回到你的网站的地址。
         alipay_public_key_path=settings.PUB_KEY_PATH,  # 支付宝公钥
         app_private_key_path=settings.PRI_KEY_PATH,  # 应用私钥
         debug=True,  # 默认False,
@@ -34,7 +35,7 @@ def index(request):
     # 1. 在数据库创建一条数据：状态（待支付）
     # 2. 创建加密的数据，然后放到url发送给支付宝
     query_params = alipay.direct_pay(
-        subject="充气式韩红",  # 商品简单描述
+        subject="python之路",  # 商品简单描述
         out_trade_no= out_trade_no,  # 商户订单号，支付完成后支付宝会返回订单号
         total_amount=money,  # 交易金额(单位: 元 保留俩位小数)
     )
@@ -48,6 +49,9 @@ def pay_result(request):
     :return:
     """
     params = request.GET.dict()
+    print(params,type(params))
+    for k,v in params.items():
+        print(k,v,type(k),type(v))
     sign = params.pop('sign', None) # 获取sign对应的签名，通过verify函数检验
 
     alipay = aliPay()

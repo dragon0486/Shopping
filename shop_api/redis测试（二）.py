@@ -34,7 +34,7 @@ conn = redis.Redis(host='192.168.80.128',port=6379)
     }
 }
 """
-conn.flushall()
+# conn.flushall()
 
 # 添加课程
 # redis_key = "luffy_shopping_car_%s_%s" %(7,11,)

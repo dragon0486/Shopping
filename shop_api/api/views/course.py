@@ -24,6 +24,8 @@ class CouserView(viewsets.ViewSetMixin,APIView):
             data = CourseSerializer(instance=queryset,many=True)
             ret['data'] = data.data
         except Exception as e:
+            import logging
+            logging.exception(e)
             ret['code']=400
         return Response(ret)
 

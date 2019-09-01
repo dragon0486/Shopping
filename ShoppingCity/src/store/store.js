@@ -9,6 +9,7 @@ export default new Vuex.Store({
   state: {
     username:Cookie.get('username'),
     token:Cookie.get('token'),
+    qcode:null,
     apiList:{
       course: 'http://127.0.0.1:8000/api/v1/course/',
       courseDetail: 'http://127.0.0.1:8000/api/v1/course/',

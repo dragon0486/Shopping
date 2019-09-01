@@ -5,10 +5,9 @@
       <!--<li ></li>-->
     <!--</ul>-->
     <div v-for="item in courseList">
-      <div style="width: 350px;float:left;">
+      <div style="width: 350px;">
         <img :src="item.course_img"/>
-        <router-link :to="{name:'detail',params:{id:item.id}}">{{item.title}}</router-link>
-        <p>{{item.level}}</p>
+        <router-link :to="{name:'detail',params:{id:item.id}}">{{item.title}}</router-link><span style="margin-left:50px">{{item.level}}</span>
       </div>
     </div>
   </div>
@@ -33,13 +32,14 @@
           //axios/jquery
           var _this = this;
           this.$axios.request({
-            url:'http://127.0.0.1:8001/api/v1/course/',// 问题2：url后的/记得对应
-            method:'GET',
+            url:'http://127.0.0.1:8000/website/course',// 问题2：url后的/记得对应
+            method:'post',
           }).then(function (data) {
+            console.log(data)
             //ajax请求发送成功后获取的响应内容
             //data.data = ajax接收的data
-            if(data.data.code == 100){
-              _this.courseList = data.data.data
+            if(data.data.data.code == 100){
+              _this.courseList = data.data.data.data
             }else{
               alert('error')
             }
