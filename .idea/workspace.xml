@@ -25,7 +25,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="gitignore" value="1" />
+          <entry key="gitignore" value="2" />
           <entry key="js" value="9" />
           <entry key="json" value="1" />
           <entry key="log" value="1" />
@@ -41,7 +41,7 @@
           <entry key="JSON" value="1" />
           <entry key="JavaScript" value="9" />
           <entry key="Markdown" value="1" />
-          <entry key="PLAIN_TEXT" value="6" />
+          <entry key="PLAIN_TEXT" value="7" />
           <entry key="Python" value="2" />
           <entry key="SVG" value="1" />
           <entry key="Vue.js" value="66" />
@@ -49,6 +49,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="gitignore" value="33" />
           <entry key="js" value="183" />
           <entry key="txt" value="52" />
           <entry key="vue" value="2180" />
@@ -57,7 +58,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JavaScript" value="183" />
-          <entry key="PLAIN_TEXT" value="85" />
+          <entry key="PLAIN_TEXT" value="118" />
           <entry key="Vue.js" value="2147" />
         </counts>
       </usages-collector>
@@ -147,11 +148,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ShoppingCity/src/App.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="33" column="10" lean-forward="true" selection-start-line="64" selection-start-column="26" selection-end-line="64" selection-end-column="36" />
+            <state relative-caret-position="399">
+              <caret line="39" column="8" lean-forward="true" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="16" column="18" lean-forward="true" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -212,6 +222,7 @@
         <option value="$PROJECT_DIR$/ShoppingCity/src/components/login.vue" />
         <option value="$PROJECT_DIR$/ShoppingCity/src/components/detail.vue" />
         <option value="$PROJECT_DIR$/ShoppingCity/src/components/micro.vue" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -277,6 +288,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Python\Python\Django\s9day104_vue" />
       <recent name="D:\Python\Python\Django\s9day104_vue\ShoppingCity\src\components" />
       <recent name="D:\Python\Python\Django\s9day104_vue\ShoppingCity\src\assets\img" />
       <recent name="D:\Python\Python\Django\s9day104_vue\ShoppingCity\src" />
@@ -332,13 +344,20 @@
       <option name="project" value="LOCAL" />
       <updated>1567594439835</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="new version of online shopping">
+      <created>1567594794707</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1567594794707</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="171" y="52" width="1538" height="927" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20838971" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20838971" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -352,7 +371,7 @@
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.22106633" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="11" visible="true" weight="0.32769832" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="11" visible="true" weight="0.32769832" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -628,8 +647,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ShoppingCity/src/App.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="33" column="10" lean-forward="true" selection-start-line="64" selection-start-column="26" selection-end-line="64" selection-end-column="36" />
+        <state relative-caret-position="399">
+          <caret line="39" column="8" lean-forward="true" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="18" lean-forward="true" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
         </state>
       </provider>
     </entry>
