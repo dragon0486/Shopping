@@ -351,7 +351,21 @@
       <option name="project" value="LOCAL" />
       <updated>1567595156215</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="new version of online shopping">
+      <created>1567596308925</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1567596308925</updated>
+    </task>
+    <task id="LOCAL-00006" summary="new version of online shopping">
+      <created>1567596572954</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1567596572954</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">

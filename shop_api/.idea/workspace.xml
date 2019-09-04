@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f4043674-810f-414c-816a-a298bb81e358" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/migrations/0001_initial.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -93,13 +94,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="cell" value="75" />
-          <entry key="ini" value="27" />
+          <entry key="ini" value="31" />
           <entry key="py" value="1207" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Ini" value="27" />
+          <entry key="Ini" value="31" />
           <entry key="Python" value="1207" />
           <entry key="Scratch" value="75" />
         </counts>
@@ -208,8 +209,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/uwsgi.ini">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="376">
-              <caret line="22" column="10" lean-forward="true" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
+            <state relative-caret-position="95">
+              <caret line="5" column="15" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -295,8 +296,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="217" />
-    <option name="y" value="63" />
+    <option name="x" value="841" />
+    <option name="y" value="69" />
     <option name="width" value="1569" />
     <option name="height" value="945" />
   </component>
@@ -689,7 +690,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="217" y="63" width="1569" height="945" extended-state="0" />
+    <frame x="1009" y="62" width="1569" height="945" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
@@ -701,11 +702,11 @@
       <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="4" weight="0.25412962" />
       <window_info anchor="bottom" id="Python Console" order="5" weight="0.32909784" />
-      <window_info anchor="bottom" id="Database Console" order="6" weight="0.32401526" />
+      <window_info active="true" anchor="bottom" id="Database Console" order="6" visible="true" weight="0.32401526" />
       <window_info anchor="bottom" id="Find" order="7" weight="0.32857144" />
       <window_info anchor="bottom" id="Message" order="8" />
       <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
-      <window_info active="true" anchor="bottom" id="Run" order="10" visible="true" weight="0.24396442" />
+      <window_info anchor="bottom" id="Run" order="10" weight="0.24396442" />
       <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="13" />
@@ -1093,8 +1094,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/uwsgi.ini">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="22" column="10" lean-forward="true" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
+        <state relative-caret-position="95">
+          <caret line="5" column="15" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="15" />
         </state>
       </provider>
     </entry>
