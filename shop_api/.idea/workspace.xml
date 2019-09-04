@@ -2,84 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f4043674-810f-414c-816a-a298bb81e358" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/../ShoppingCity/src/assets/img/Loginbg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ShoppingCity/src/assets/img/Logotitle.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ShoppingCity/src/assets/img/alex_python.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ShoppingCity/src/assets/img/avatar1.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ShoppingCity/src/assets/img/banner1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ShoppingCity/src/assets/img/banner2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ShoppingCity/src/assets/img/banner3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ShoppingCity/src/assets/img/cart-yellow.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ShoppingCity/src/assets/img/cart.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ShoppingCity/src/assets/img/chapter-player.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ShoppingCity/src/assets/img/course-cover.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ShoppingCity/src/assets/img/course_demo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ShoppingCity/src/assets/img/enum.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ShoppingCity/src/assets/img/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ShoppingCity/src/assets/img/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ShoppingCity/src/assets/img/logo@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ShoppingCity/src/assets/img/play-icon-gray.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ShoppingCity/src/assets/img/play-icon-yellow.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ShoppingCity/src/components/Banner.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ShoppingCity/src/components/Footer.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ShoppingCity/src/components/phone_register.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ShoppingCity/src/components/username_register.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ShoppingCity/src/components/webchat_register.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ShoppingCity/src/settings.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ShoppingCity/static/header-logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/adminx.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/models_bak.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/serializers/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/serializers/home.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/throttles.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/views/home.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/views/paginations.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/views/user.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/banner/banner2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/banner/banner3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/courses/alex_python.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/courses/lyy_linux.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/courses/mjj_python.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/teacher/alex_icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/teacher/lyy_icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/teacher/mjj_icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/banner1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/banner2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/banner3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/APIResponse.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ShoppingCity/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../ShoppingCity/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ShoppingCity/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../ShoppingCity/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ShoppingCity/src/components/Index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../ShoppingCity/src/components/Index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ShoppingCity/src/components/course.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../ShoppingCity/src/components/course.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ShoppingCity/src/components/detail.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../ShoppingCity/src/components/detail.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ShoppingCity/src/components/login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../ShoppingCity/src/components/login.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ShoppingCity/src/components/micro.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../ShoppingCity/src/components/micro.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ShoppingCity/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ShoppingCity/src/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ShoppingCity/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ShoppingCity/src/router/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ShoppingCity/src/store/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ShoppingCity/src/store/store.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/migrations/0002_userinfo_balance.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/migrations/0003_auto_20180923_0035.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/migrations/0004_auto_20180923_0043.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/migrations/0005_transactionrecord_balance.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/migrations/0006_couponrecord_order.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/serializers/auth.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/serializers/auth.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/serializers/course.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/serializers/course.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/serializers/news.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/serializers/news.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/views/course.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/views/course.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/views/newspapers.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/views/newspapers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/views/pay.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/views/pay.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/views/weixin.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/views/weixin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3_20190903" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop_api/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/shop_api/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop_api/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/shop_api/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/migrations/0001_initial.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -269,8 +192,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/api/views/pay.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="466">
-              <caret line="92" column="30" lean-forward="true" selection-start-line="92" selection-start-column="30" selection-end-line="92" selection-end-column="30" />
+            <state relative-caret-position="352">
+              <caret line="86" column="19" lean-forward="true" selection-start-line="86" selection-start-column="19" selection-end-line="86" selection-end-column="19" />
               <folding>
                 <element signature="e#0#57#0" expanded="true" />
               </folding>
@@ -753,17 +676,16 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="217" y="63" width="1569" height="945" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.18820411" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="1" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="1" visible="true" weight="0.32909784" />
       <window_info anchor="bottom" id="Database Changes" order="2" weight="0.32909784" />
       <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="4" visible="true" weight="0.25412962" />
-      <window_info anchor="bottom" id="Python Console" order="5" weight="0.32911393" />
+      <window_info anchor="bottom" id="Terminal" order="4" weight="0.25412962" />
+      <window_info anchor="bottom" id="Python Console" order="5" weight="0.32909784" />
       <window_info anchor="bottom" id="Database Console" order="6" weight="0.32401526" />
       <window_info anchor="bottom" id="Find" order="7" weight="0.32857144" />
       <window_info anchor="bottom" id="Message" order="8" />
@@ -1149,8 +1071,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/api/views/pay.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="466">
-          <caret line="92" column="30" lean-forward="true" selection-start-line="92" selection-start-column="30" selection-end-line="92" selection-end-column="30" />
+        <state relative-caret-position="352">
+          <caret line="86" column="19" lean-forward="true" selection-start-line="86" selection-start-column="19" selection-end-line="86" selection-end-column="19" />
           <folding>
             <element signature="e#0#57#0" expanded="true" />
           </folding>

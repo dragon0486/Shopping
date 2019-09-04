@@ -1,85 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7c76d546-777a-4364-8b02-9bead0b3954b" name="Default" comment="modify some page">
-      <change afterPath="$PROJECT_DIR$/ShoppingCity/src/assets/img/Loginbg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShoppingCity/src/assets/img/Logotitle.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShoppingCity/src/assets/img/alex_python.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShoppingCity/src/assets/img/avatar1.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShoppingCity/src/assets/img/banner1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShoppingCity/src/assets/img/banner2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShoppingCity/src/assets/img/banner3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShoppingCity/src/assets/img/cart-yellow.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShoppingCity/src/assets/img/cart.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShoppingCity/src/assets/img/chapter-player.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShoppingCity/src/assets/img/course-cover.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShoppingCity/src/assets/img/course_demo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShoppingCity/src/assets/img/enum.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShoppingCity/src/assets/img/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShoppingCity/src/assets/img/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShoppingCity/src/assets/img/logo@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShoppingCity/src/assets/img/play-icon-gray.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShoppingCity/src/assets/img/play-icon-yellow.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShoppingCity/src/components/Banner.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShoppingCity/src/components/Footer.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShoppingCity/src/components/phone_register.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShoppingCity/src/components/username_register.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShoppingCity/src/components/webchat_register.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShoppingCity/src/settings.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShoppingCity/static/header-logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop_api/api/adminx.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop_api/api/models_bak.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop_api/api/serializers/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop_api/api/serializers/home.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop_api/api/throttles.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop_api/api/views/home.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop_api/api/views/paginations.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop_api/api/views/user.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop_api/media/banner/banner2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop_api/media/banner/banner3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop_api/media/courses/alex_python.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop_api/media/courses/lyy_linux.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop_api/media/courses/mjj_python.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop_api/media/teacher/alex_icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop_api/media/teacher/lyy_icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop_api/media/teacher/mjj_icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop_api/static/img/banner1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop_api/static/img/banner2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop_api/static/img/banner3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop_api/utils/APIResponse.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShoppingCity/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/ShoppingCity/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShoppingCity/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/ShoppingCity/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShoppingCity/src/components/Index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/ShoppingCity/src/components/Index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShoppingCity/src/components/course.vue" beforeDir="false" afterPath="$PROJECT_DIR$/ShoppingCity/src/components/course.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShoppingCity/src/components/detail.vue" beforeDir="false" afterPath="$PROJECT_DIR$/ShoppingCity/src/components/detail.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShoppingCity/src/components/login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/ShoppingCity/src/components/login.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShoppingCity/src/components/micro.vue" beforeDir="false" afterPath="$PROJECT_DIR$/ShoppingCity/src/components/micro.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShoppingCity/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/ShoppingCity/src/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShoppingCity/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/ShoppingCity/src/router/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShoppingCity/src/store/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/ShoppingCity/src/store/store.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop_api/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shop_api/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop_api/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shop_api/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop_api/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shop_api/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop_api/api/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/shop_api/api/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop_api/api/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop_api/api/migrations/0002_userinfo_balance.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop_api/api/migrations/0003_auto_20180923_0035.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop_api/api/migrations/0004_auto_20180923_0043.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop_api/api/migrations/0005_transactionrecord_balance.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop_api/api/migrations/0006_couponrecord_order.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop_api/api/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/shop_api/api/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop_api/api/serializers/auth.py" beforeDir="false" afterPath="$PROJECT_DIR$/shop_api/api/serializers/auth.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop_api/api/serializers/course.py" beforeDir="false" afterPath="$PROJECT_DIR$/shop_api/api/serializers/course.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop_api/api/serializers/news.py" beforeDir="false" afterPath="$PROJECT_DIR$/shop_api/api/serializers/news.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop_api/api/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/shop_api/api/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop_api/api/views/course.py" beforeDir="false" afterPath="$PROJECT_DIR$/shop_api/api/views/course.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop_api/api/views/newspapers.py" beforeDir="false" afterPath="$PROJECT_DIR$/shop_api/api/views/newspapers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop_api/api/views/pay.py" beforeDir="false" afterPath="$PROJECT_DIR$/shop_api/api/views/pay.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop_api/api/views/weixin.py" beforeDir="false" afterPath="$PROJECT_DIR$/shop_api/api/views/weixin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop_api/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/shop_api/db.sqlite3_20190903" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop_api/shop_api/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/shop_api/shop_api/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop_api/shop_api/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/shop_api/shop_api/urls.py" afterDir="false" />
+    <list default="true" id="7c76d546-777a-4364-8b02-9bead0b3954b" name="Default" comment="new version of online shopping">
+      <change beforePath="$PROJECT_DIR$/shop_api/api/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/shop_api/api/migrations/0001_initial.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -127,14 +50,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="js" value="183" />
-          <entry key="txt" value="19" />
+          <entry key="txt" value="52" />
           <entry key="vue" value="2180" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JavaScript" value="183" />
-          <entry key="PLAIN_TEXT" value="52" />
+          <entry key="PLAIN_TEXT" value="85" />
           <entry key="Vue.js" value="2147" />
         </counts>
       </usages-collector>
@@ -227,8 +150,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ShoppingCity/src/App.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="874">
-              <caret line="64" column="36" selection-start-line="64" selection-start-column="26" selection-end-line="64" selection-end-column="36" />
+            <state relative-caret-position="285">
+              <caret line="33" column="10" lean-forward="true" selection-start-line="64" selection-start-column="26" selection-end-line="64" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -330,48 +253,12 @@
             <path>
               <item name="s9day104_vue" type="b2602c69:ProjectViewProjectNode" />
               <item name="s9day104_vue" type="462c0819:PsiDirectoryNode" />
-              <item name="ShoppingCity" type="462c0819:PsiDirectoryNode" />
+              <item name="shop_api" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="s9day104_vue" type="b2602c69:ProjectViewProjectNode" />
               <item name="s9day104_vue" type="462c0819:PsiDirectoryNode" />
               <item name="ShoppingCity" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="s9day104_vue" type="b2602c69:ProjectViewProjectNode" />
-              <item name="s9day104_vue" type="462c0819:PsiDirectoryNode" />
-              <item name="ShoppingCity" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="s9day104_vue" type="b2602c69:ProjectViewProjectNode" />
-              <item name="s9day104_vue" type="462c0819:PsiDirectoryNode" />
-              <item name="ShoppingCity" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="s9day104_vue" type="b2602c69:ProjectViewProjectNode" />
-              <item name="s9day104_vue" type="462c0819:PsiDirectoryNode" />
-              <item name="ShoppingCity" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="s9day104_vue" type="b2602c69:ProjectViewProjectNode" />
-              <item name="s9day104_vue" type="462c0819:PsiDirectoryNode" />
-              <item name="ShoppingCity" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="router" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="s9day104_vue" type="b2602c69:ProjectViewProjectNode" />
-              <item name="s9day104_vue" type="462c0819:PsiDirectoryNode" />
-              <item name="ShoppingCity" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -438,12 +325,18 @@
       <option name="project" value="LOCAL" />
       <updated>1567323927392</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="new version of online shopping">
+      <created>1567594439835</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1567594439835</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="171" y="52" width="1538" height="927" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20838971" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -457,9 +350,9 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.22106633" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.22106633" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="11" weight="0.32899868" />
+      <window_info anchor="bottom" id="Version Control" order="11" visible="true" weight="0.32769832" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -486,7 +379,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="modify some page" />
-    <option name="LAST_COMMIT_MESSAGE" value="modify some page" />
+    <MESSAGE value="new version of online shopping" />
+    <option name="LAST_COMMIT_MESSAGE" value="new version of online shopping" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/ShoppingCity/.gitignore">
@@ -734,8 +628,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ShoppingCity/src/App.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="874">
-          <caret line="64" column="36" selection-start-line="64" selection-start-column="26" selection-end-line="64" selection-end-column="36" />
+        <state relative-caret-position="285">
+          <caret line="33" column="10" lean-forward="true" selection-start-line="64" selection-start-column="26" selection-end-line="64" selection-end-column="36" />
         </state>
       </provider>
     </entry>
