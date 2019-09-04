@@ -1,12 +1,16 @@
 <template>
   <div>
-    <h1>{{msg}}</h1>
+    <Banner></Banner>
   </div>
 </template>
 
 <script>
+  import Banner from "@/components/Banner"
   export default {
     name: "Index",
+    components:{
+      Banner
+    },
     data() {
       return {
         msg: '首页'

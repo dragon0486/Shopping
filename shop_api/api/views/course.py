@@ -8,9 +8,37 @@ from django.shortcuts import HttpResponse
 import json
 from rest_framework import serializers
 from rest_framework import viewsets
-from api.serializers.course import *
+from api.serializers import course
 from api.auth.auth import *
 from django.contrib.contenttypes.models import ContentType
+from rest_framework.generics import ListAPIView
+from rest_framework.filters import OrderingFilter
+from django_filters.rest_framework.backends import DjangoFilterBackend
+from .paginations import CoursePageNumberPagination
+
+class CategoryListAPIView(ListAPIView):
+    queryset = models.CourseCategory.objects.filter(is_show=True, is_delete=False)
+    serializer_class = course.CategoryModelSerializer
+    
+class CourseListAPIView(ListAPIView):
+    queryset = models.Course.objects.filter(is_show=True, is_delete=False)
+    serializer_class = course.CourseModelSerializer
+    filter_backends = [DjangoFilterBackend, OrderingFilter]
+    filter_fields = ['course_category']
+    ordering_fields = ['id', 'students', 'price']
+    pagination_class = CoursePageNumberPagination
+
+from rest_framework.generics import RetrieveAPIView
+class CourseRetrieveAPIView(RetrieveAPIView):
+    queryset = models.Course.objects.filter(is_delete=False, is_show=True)
+    serializer_class = course.CourseRetrieveModelSerializer
+
+from django_filters.rest_framework.backends import DjangoFilterBackend
+class CourseChapterListAPIView(ListAPIView):
+    queryset = models.CourseChapter.objects.filter(is_delete=False, is_show=True)
+    serializer_class = course.CourseChapterModelSerializer
+    filter_backends = [DjangoFilterBackend]
+    filter_fields = ['course']
 
 class CouserView(viewsets.ViewSetMixin,APIView):
     # renderer_classes = [JSONRenderer,]    # settings配置也可，JSONRenderer渲染器只返回json格式的数据，不渲染模板

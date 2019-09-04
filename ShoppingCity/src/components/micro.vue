@@ -17,7 +17,7 @@
           // if(!this.$store.state.token){
           //   this.$router.push({name:'login'})
           // }
-        this.initMicro()
+        // this.initMicro()
       },
       methods:{
         initMicro(){

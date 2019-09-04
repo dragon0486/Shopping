@@ -9,7 +9,7 @@ export default new Vuex.Store({
   state: {
     username:Cookie.get('username'),
     token:Cookie.get('token'),
-    qcode:null,
+    mobile:Cookie.get('mobile'),
     apiList:{
       course: 'http://127.0.0.1:8000/api/v1/course/',
       courseDetail: 'http://127.0.0.1:8000/api/v1/course/',
@@ -22,15 +22,19 @@ export default new Vuex.Store({
     saveToken: function (state, userToken) {
       state.username = userToken.username;
       state.token = userToken.token;
+      state.mobile = userToken.mobile;
       Cookie.set("username", userToken.username, "20min")
       Cookie.set("token", userToken.token, "20min")
+      Cookie.set("mobile", userToken.mobile, "20min")
 
     },
     clearToken: function (state) {
       state.username = null
       state.token = null
+      state.mobile = null
       Cookie.remove('username')
       Cookie.remove('token')
+      Cookie.remove('mobile')
 
     }
   }

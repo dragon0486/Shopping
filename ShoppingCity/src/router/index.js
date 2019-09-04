@@ -8,6 +8,9 @@ import detail from '@/components/detail'
 import payresult from '@/components/payresult'
 import login from '@/components/login'
 import signup from '@/components/signup'
+import username_register from '@/components/username_register'
+import phone_register from '@/components/phone_register'
+import webchat_register from '@/components/webchat_register'
 
 Vue.use(Router);
 
@@ -24,7 +27,7 @@ export default new Router({
       component:course
     },
     {
-      path: '/detail/:id',
+      path: '/course/detail/:course_id',
       name: 'detail',
       component:detail
     },
@@ -54,7 +57,12 @@ export default new Router({
         {
       path: '/signup',
       name: 'signup',
-      component:signup
+      component:signup,
+      children:[
+        {path:'username',component:username_register},
+        {path:'phone',component:phone_register},
+        {path:'webchat',component:webchat_register},
+      ]
     },
   ],
   mode:'history'

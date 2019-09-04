@@ -13,11 +13,11 @@ urlpatterns = [
     }), name="book_detail"),
     url(r'^auth/$', account.AuthView.as_view()),
     url(r'^micro/$', course.MicroView.as_view()),
-
-    url(r'^newspapers/', newspapers.NewsPapers.as_view({"get": "list"})),
-    url(r'^newspapers/(?P<pk>\d+)/$', newspapers.NewsPapers.as_view({"get": "retrieve"})),
-
-    url(r'^newspapers/(?P<pk>\d+)/agree/$', newspapers.AgreeView.as_view({'post': 'post'})),
+    #
+    # url(r'^newspapers/', newspapers.NewsPapers.as_view({"get": "list"})),
+    # url(r'^newspapers/(?P<pk>\d+)/$', newspapers.NewsPapers.as_view({"get": "retrieve"})),
+    #
+    # url(r'^newspapers/(?P<pk>\d+)/agree/$', newspapers.AgreeView.as_view({'post': 'post'})),
 
     url(r'^shoppingcar/$', shoppingcar.ShoppingCarViewSet.as_view()),
 

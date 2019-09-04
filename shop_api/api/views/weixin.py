@@ -68,6 +68,8 @@ def bind_qcode(request):
         )
         ret['data'] = access_url
     except Exception as e:
+        import logging
+        logging.exception(e)
         ret['code'] = 1001
         ret['msg'] = str(e)
 

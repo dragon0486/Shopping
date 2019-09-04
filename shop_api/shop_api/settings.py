@@ -39,17 +39,34 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'api',
+    # xamin主体模块
+    'xadmin',
+    # xamin渲染表格模块
+    'crispy_forms',
+    # xamin为模型通过版本控制，可以回滚数据
+    'reversion',
+    'corsheaders',
 ]
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
+    'corsheaders.middleware.CorsMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'api.cors.CORSMiddleware'
+]
+CORS_ORIGIN_ALLOW_ALL = False
+from corsheaders.defaults import default_headers
+CORS_ALLOW_HEADERS = list(default_headers) + [
+    'Authorization',
+]
+CORS_ORIGIN_WHITELIST = [
+	'http://localhost:8080',
+    'http://127.0.0.1:8080',
 ]
 
 ROOT_URLCONF = 'shop_api.urls'
@@ -133,10 +150,12 @@ REST_FRAMEWORK = {  # 配置渲染器
     "VERSION_PARAM":'version',
     'DEFAULT_VERSION':'v1',
     "DEFAULT_PAGINATION_CLASS": 'rest_framework.pagination.PageNumberPagination',
-    'PAGE_SIZE': 2,
-    # "DEFAULT_THROTTLE_RATES":{
-    #     "visit_rate":"5/m",
-    # }
+    'PAGE_SIZE': 5,
+    "DEFAULT_THROTTLE_RATES":{
+        'user': None,
+        'anon': None,
+        'sms': '10/min',
+    }
 }
 # 支付相关配置
 APPID = "2016092200570009"
@@ -172,7 +191,7 @@ WECHAT_CONFIG = {
 CACHES = {
     "default": {
         "BACKEND": "django_redis.cache.RedisCache",
-        "LOCATION": "redis://192.168.80.128:6379",
+        "LOCATION": "redis://3.18.144.186:6379",
         "OPTIONS": {
             "CLIENT_CLASS": "django_redis.client.DefaultClient",
             "CONNECTION_POOL_KWARGS": {"max_connections": 100}
@@ -183,3 +202,8 @@ CACHES = {
 SHOPPING_CAR_KEY = "luffy_shopping_car_%s_%s"
 PAYMENT_KEY = "luffy_payment_%s_%s"
 PAYMENT_COUPON_KEY = "luffy_payment_coupon_%s"
+
+MEDIA_URL = "/media/"
+MEDIA_ROOT = os.path.join(BASE_DIR, "media")
+
+AUTH_USER_MODEL = 'api.User'

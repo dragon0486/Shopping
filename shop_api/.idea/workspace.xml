@@ -2,23 +2,84 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f4043674-810f-414c-816a-a298bb81e358" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/s9day104_vue.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/s9day104_vue.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingCity/src/assets/img/Loginbg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingCity/src/assets/img/Logotitle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingCity/src/assets/img/alex_python.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingCity/src/assets/img/avatar1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingCity/src/assets/img/banner1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingCity/src/assets/img/banner2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingCity/src/assets/img/banner3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingCity/src/assets/img/cart-yellow.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingCity/src/assets/img/cart.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingCity/src/assets/img/chapter-player.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingCity/src/assets/img/course-cover.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingCity/src/assets/img/course_demo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingCity/src/assets/img/enum.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingCity/src/assets/img/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingCity/src/assets/img/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingCity/src/assets/img/logo@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingCity/src/assets/img/play-icon-gray.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingCity/src/assets/img/play-icon-yellow.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingCity/src/components/Banner.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingCity/src/components/Footer.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingCity/src/components/phone_register.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingCity/src/components/username_register.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingCity/src/components/webchat_register.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingCity/src/settings.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingCity/static/header-logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/adminx.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/models_bak.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/serializers/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/serializers/home.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/throttles.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/views/home.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/views/paginations.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/views/user.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/banner/banner2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/banner/banner3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/courses/alex_python.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/courses/lyy_linux.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/courses/mjj_python.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/teacher/alex_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/teacher/lyy_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/teacher/mjj_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/banner1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/banner2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/banner3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/APIResponse.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ShoppingCity/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../ShoppingCity/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ShoppingCity/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../ShoppingCity/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ShoppingCity/src/components/Index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../ShoppingCity/src/components/Index.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ShoppingCity/src/components/course.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../ShoppingCity/src/components/course.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ShoppingCity/src/components/detail.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../ShoppingCity/src/components/detail.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ShoppingCity/src/components/login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../ShoppingCity/src/components/login.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ShoppingCity/src/components/micro.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../ShoppingCity/src/components/micro.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ShoppingCity/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ShoppingCity/src/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ShoppingCity/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ShoppingCity/src/router/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ShoppingCity/src/store/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ShoppingCity/src/store/store.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shop_api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shop_api.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/migrations/0002_userinfo_balance.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/migrations/0003_auto_20180923_0035.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/migrations/0004_auto_20180923_0043.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/migrations/0005_transactionrecord_balance.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/migrations/0006_couponrecord_order.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/serializers/auth.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/serializers/auth.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/serializers/course.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/serializers/course.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/serializers/news.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/serializers/news.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/views/course.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/views/course.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/views/newspapers.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/views/newspapers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/views/pay.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/views/pay.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/redis测试（二）.py" beforeDir="false" afterPath="$PROJECT_DIR$/redis测试（二）.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/views/weixin.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/views/weixin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3_20190903" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop_api/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/shop_api/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop_api/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/shop_api/urls.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,16 +104,16 @@
     <expand>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="db [2]" type="feb32156:DbDataSourceImpl" />
+        <item name="db" type="feb32156:DbDataSourceImpl" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="db [2]" type="feb32156:DbDataSourceImpl" />
+        <item name="db" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="db [2]" type="feb32156:DbDataSourceImpl" />
+        <item name="db" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="main: schema" type="90513b60:SqliteImplModel$Schema" />
       </path>
@@ -66,9 +127,12 @@
     <session id="1518842458">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.3" value="2" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.closed" value="9" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.2" value="2" />
+          <entry key="project.open.time.3" value="5" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -77,27 +141,40 @@
           <entry key="api_coursedetail" value="1" />
           <entry key="api_coursedetail_new" value="1" />
           <entry key="api_coursedetail_new_recommend_courses" value="1" />
-          <entry key="html" value="2" />
-          <entry key="py" value="13" />
-          <entry key="txt" value="2" />
+          <entry key="api_coursesection" value="1" />
+          <entry key="auth_user" value="2" />
+          <entry key="html" value="4" />
+          <entry key="luffy_banner" value="7" />
+          <entry key="luffy_nav" value="5" />
+          <entry key="luffy_teacher" value="1" />
+          <entry key="luffy_user" value="1" />
+          <entry key="png" value="1" />
+          <entry key="py" value="112" />
+          <entry key="sql" value="3" />
+          <entry key="txt" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Database Element" value="6" />
-          <entry key="HTML" value="2" />
-          <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Python" value="13" />
+          <entry key="Database Element" value="23" />
+          <entry key="HTML" value="4" />
+          <entry key="Image" value="1" />
+          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="Python" value="112" />
+          <entry key="SQL" value="1" />
+          <entry key="Scratch" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="166" />
+          <entry key="cell" value="75" />
+          <entry key="py" value="1207" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="166" />
+          <entry key="Python" value="1207" />
+          <entry key="Scratch" value="75" />
         </counts>
       </usages-collector>
     </session>
@@ -107,29 +184,47 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/shop_api/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
-              <caret line="143" column="49" selection-start-line="143" selection-start-column="43" selection-end-line="143" selection-end-column="49" />
+            <state relative-caret-position="-304">
+              <caret line="65" column="1" lean-forward="true" selection-start-line="65" selection-start-column="1" selection-end-line="65" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/urls.py">
+        <entry file="file://$PROJECT_DIR$/api/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+            <state relative-caret-position="304">
+              <caret line="115" column="27" lean-forward="true" selection-start-line="115" selection-start-column="27" selection-end-line="115" selection-end-column="27" />
               <folding>
-                <element signature="e#0#40#0" expanded="true" />
+                <element signature="e#0#28#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/adminx.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api/views/course.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="32" column="38" lean-forward="true" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="38" />
+            <state relative-caret-position="-291">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+              <folding>
+                <element signature="e#0#40#0" expanded="true" />
+                <element signature="e#612#1672#0" />
+                <element signature="e#1704#2093#0" />
+                <element signature="e#2118#2883#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -137,44 +232,33 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/shop_api/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="20" column="55" selection-start-line="20" selection-start-column="55" selection-end-line="20" selection-end-column="55" />
+            <state relative-caret-position="312">
+              <caret line="47" column="27" lean-forward="true" selection-start-line="47" selection-start-column="27" selection-end-line="47" selection-end-column="27" />
               <folding>
-                <element signature="e#642#682#0" expanded="true" />
+                <element signature="e#642#695#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/views/alipay.py">
+        <entry file="file://$PROJECT_DIR$/api/views/user.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1406">
-              <caret line="74" column="27" lean-forward="true" selection-start-line="74" selection-start-column="27" selection-end-line="74" selection-end-column="27" />
+            <state relative-caret-position="232">
+              <caret line="207" column="20" selection-start-line="207" selection-start-column="20" selection-end-line="207" selection-end-column="20" />
               <folding>
-                <element signature="e#45#85#0" expanded="true" />
+                <element signature="e#0#9#0" expanded="true" />
+                <marker date="1567587367722" expanded="true" signature="2863:5962" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/views/payment.py">
+        <entry file="file://$PROJECT_DIR$/api/views/weixin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="169" column="22" selection-start-line="169" selection-start-column="22" selection-end-line="169" selection-end-column="22" />
-              <folding>
-                <element signature="e#0#40#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/views/order.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="174" column="49" lean-forward="true" selection-start-line="174" selection-start-column="49" selection-end-line="174" selection-end-column="49" />
+            <state relative-caret-position="898">
+              <caret line="181" selection-start-line="181" selection-end-line="181" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -182,11 +266,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/api/views/pay.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1197">
-              <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+            <state relative-caret-position="466">
+              <caret line="92" column="30" lean-forward="true" selection-start-line="92" selection-start-column="30" selection-end-line="92" selection-end-column="30" />
               <folding>
                 <element signature="e#0#57#0" expanded="true" />
               </folding>
@@ -209,6 +293,10 @@
       <find>token</find>
       <find>account</find>
       <find>/api/v1/alipay/</find>
+      <find>AbstractUser</find>
+      <find>User</find>
+      <find>Bad Request:</find>
+      <find>Course</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -218,7 +306,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/api/serializers.py" />
-        <option value="$PROJECT_DIR$/api/serializers/course.py" />
         <option value="$PROJECT_DIR$/api/views/auth.py" />
         <option value="$PROJECT_DIR$/api/cors.py" />
         <option value="F:/Downloads/第09套：全栈9期/Python全栈9期（第十二部分）：Git + 路飞学城（01）(wusir)/day107/day107课上所有/s9alipay/s9alipay/settings.py" />
@@ -227,27 +314,39 @@
         <option value="F:/Downloads/第09套：全栈9期/Python全栈9期（第十二部分）：Git + 路飞学城（01）(wusir)/day107/day107课上所有/luffycity/api/models.py" />
         <option value="C:/Python35/Lib/site-packages/django/conf/__init__.py" />
         <option value="$PROJECT_DIR$/utils/response.py" />
-        <option value="$PROJECT_DIR$/api/serializers/news.py" />
-        <option value="$PROJECT_DIR$/api/views/newspapers.py" />
         <option value="$PROJECT_DIR$/templates/bind.html" />
-        <option value="$PROJECT_DIR$/api/views/weixin.py" />
         <option value="$PROJECT_DIR$/redis测试.py" />
         <option value="$PROJECT_DIR$/redis测试（三）.py" />
         <option value="$PROJECT_DIR$/api/views/payment.py" />
-        <option value="$PROJECT_DIR$/shop_api/urls.py" />
         <option value="$PROJECT_DIR$/api/auth/permission.py" />
-        <option value="$PROJECT_DIR$/shop_api/settings.py" />
         <option value="$PROJECT_DIR$/api/views/alipay.py" />
         <option value="$PROJECT_DIR$/api/auth/throttles.py" />
-        <option value="$PROJECT_DIR$/api/urls.py" />
         <option value="$PROJECT_DIR$/api/views/account.py" />
         <option value="$PROJECT_DIR$/redis测试（二）.py" />
         <option value="$PROJECT_DIR$/api/views/shoppingcar.py" />
-        <option value="$PROJECT_DIR$/api/admin.py" />
         <option value="$PROJECT_DIR$/api/auth/auth.py" />
-        <option value="$PROJECT_DIR$/api/models.py" />
         <option value="$PROJECT_DIR$/api/views/order.py" />
+        <option value="$PROJECT_DIR$/api/serializers/__init__.py" />
+        <option value="C:/Python36/Lib/site-packages/rest_framework/generics.py" />
+        <option value="$PROJECT_DIR$/api/serializers/home.py" />
+        <option value="$PROJECT_DIR$/api/views/home.py" />
+        <option value="$PROJECT_DIR$/api/admin.py" />
+        <option value="C:/Python36/Lib/site-packages/rest_framework/mixins.py" />
+        <option value="C:/Python36/Lib/site-packages/rest_framework/fields.py" />
+        <option value="$PROJECT_DIR$/api/serializers/auth.py" />
+        <option value="C:/Python36/Lib/site-packages/rest_framework/serializers.py" />
+        <option value="$PROJECT_DIR$/api/views/weixin.py" />
+        <option value="$PROJECT_DIR$/api/models.py" />
+        <option value="$PROJECT_DIR$/api/serializers/news.py" />
+        <option value="$PROJECT_DIR$/api/views/newspapers.py" />
+        <option value="$PROJECT_DIR$/api/urls.py" />
+        <option value="$PROJECT_DIR$/api/adminx.py" />
         <option value="$PROJECT_DIR$/api/views/course.py" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/b1529a25-53eb-44e0-bda0-9d8ed0de0db7/console.sql" />
+        <option value="$PROJECT_DIR$/api/views/user.py" />
+        <option value="$PROJECT_DIR$/api/serializers/course.py" />
+        <option value="$PROJECT_DIR$/shop_api/urls.py" />
+        <option value="$PROJECT_DIR$/shop_api/settings.py" />
         <option value="$PROJECT_DIR$/api/views/pay.py" />
       </list>
     </option>
@@ -258,15 +357,18 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="278" />
-    <option name="y" value="19" />
-    <option name="width" value="1553" />
-    <option name="height" value="1017" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="217" />
+    <option name="y" value="63" />
+    <option name="width" value="1569" />
+    <option name="height" value="945" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
+      <showMembers ProjectPane="true" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
@@ -298,12 +400,40 @@
               <item name="shop_api" type="b2602c69:ProjectViewProjectNode" />
               <item name="shop_api" type="462c0819:PsiDirectoryNode" />
               <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="migrations" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shop_api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shop_api" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="serializers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shop_api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shop_api" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="shop_api" type="b2602c69:ProjectViewProjectNode" />
               <item name="shop_api" type="462c0819:PsiDirectoryNode" />
+              <item name="media" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shop_api" type="b2602c69:ProjectViewProjectNode" />
               <item name="shop_api" type="462c0819:PsiDirectoryNode" />
+              <item name="shop_api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shop_api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shop_api" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shop_api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shop_api" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="shop_api" type="b2602c69:ProjectViewProjectNode" />
@@ -315,6 +445,88 @@
               <item name="shop_api" type="462c0819:PsiDirectoryNode" />
               <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="shop_api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="shop_api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 (feature-data-service) &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="shop_api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 (feature-data-service) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="Python36" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shop_api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 (feature-data-service) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="Python36" type="462c0819:PsiDirectoryNode" />
+              <item name="Lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shop_api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 (feature-data-service) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="Python36" type="462c0819:PsiDirectoryNode" />
+              <item name="Lib" type="462c0819:PsiDirectoryNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shop_api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 (feature-data-service) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="Python36" type="462c0819:PsiDirectoryNode" />
+              <item name="Lib" type="462c0819:PsiDirectoryNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+              <item name="rest_framework" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shop_api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 (feature-data-service) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="Python36" type="462c0819:PsiDirectoryNode" />
+              <item name="Lib" type="462c0819:PsiDirectoryNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+              <item name="rest_framework" type="462c0819:PsiDirectoryNode" />
+              <item name="serializers.py" type="8704e2dd:PyFileNode" />
+            </path>
+            <path>
+              <item name="shop_api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 (feature-data-service) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="Python36" type="462c0819:PsiDirectoryNode" />
+              <item name="Lib" type="462c0819:PsiDirectoryNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+              <item name="rest_framework" type="462c0819:PsiDirectoryNode" />
+              <item name="serializers.py" type="8704e2dd:PyFileNode" />
+              <item name="BaseSerializer" type="dd8bbb05:PyElementNode" />
+            </path>
+            <path>
+              <item name="shop_api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 (feature-data-service) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="Python36" type="462c0819:PsiDirectoryNode" />
+              <item name="Lib" type="462c0819:PsiDirectoryNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+              <item name="rest_framework" type="462c0819:PsiDirectoryNode" />
+              <item name="serializers.py" type="8704e2dd:PyFileNode" />
+              <item name="ModelSerializer" type="dd8bbb05:PyElementNode" />
+            </path>
+            <path>
+              <item name="shop_api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 (feature-data-service) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="Python36" type="462c0819:PsiDirectoryNode" />
+              <item name="Lib" type="462c0819:PsiDirectoryNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+              <item name="rest_framework" type="462c0819:PsiDirectoryNode" />
+              <item name="serializers.py" type="8704e2dd:PyFileNode" />
+              <item name="Serializer" type="dd8bbb05:PyElementNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -324,22 +536,23 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="database.console.LAST_STATE" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="database.data.extractors.current.id" value="SQL Inserts" />
+    <property name="last_opened_file_path" value="D:/策略" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Python\Python\Django\s9day104_vue\shop_api\utils" />
+      <recent name="D:\Python\Python\Django\s9day104_vue\shop_api\media" />
+      <recent name="D:\Python\Python\Django\s9day104_vue\shop_api\api\views" />
+      <recent name="D:\Python\Python\Django\s9day104_vue\shop_api" />
+      <recent name="D:\Python\Python\Django\s9day104_vue\shop_api\api" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Python\Django\s9day104_vue\shop_api\static\img" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Python\Django\s9day104_vue\shop_api\api\auth" />
-      <recent name="D:\Python\Django\s9day104_vue\shop_api\api\views" />
-      <recent name="D:\Python\Django\s9day104_vue\shop_api\utils" />
-      <recent name="D:\Python\Django\s9day104_vue\shop_api" />
-      <recent name="D:\Python\Django\s9day104_vue\shop_api\api\serializers" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -505,8 +718,8 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="launchJavascriptDebuger" value="false" />
-      <option name="port" value="8001" />
-      <option name="host" value="0.0.0.0" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
       <option name="additionalOptions" value="" />
       <option name="browserUrl" value="" />
       <option name="runTestServer" value="false" />
@@ -539,28 +752,28 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="278" y="19" width="1553" height="1017" extended-state="1" />
+    <frame x="217" y="63" width="1569" height="945" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.19022103" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.18820411" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="1" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="2" />
+      <window_info anchor="bottom" id="Database Changes" order="2" weight="0.32909784" />
       <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="4" weight="0.2556962" />
+      <window_info anchor="bottom" id="Terminal" order="4" visible="true" weight="0.25412962" />
       <window_info anchor="bottom" id="Python Console" order="5" weight="0.32911393" />
-      <window_info anchor="bottom" id="Database Console" order="6" weight="0.3247963" />
-      <window_info anchor="bottom" id="Find" order="7" weight="0.32911393" />
+      <window_info anchor="bottom" id="Database Console" order="6" weight="0.32401526" />
+      <window_info anchor="bottom" id="Find" order="7" weight="0.32857144" />
       <window_info anchor="bottom" id="Message" order="8" />
       <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
-      <window_info active="true" anchor="bottom" id="Run" order="10" visible="true" weight="0.30151337" />
+      <window_info anchor="bottom" id="Run" order="10" weight="0.24396442" />
       <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="13" />
       <window_info anchor="right" id="SciView" order="0" />
-      <window_info anchor="right" id="Database" order="1" visible="true" weight="0.16141996" />
+      <window_info anchor="right" id="Database" order="1" visible="true" weight="0.18820411" />
       <window_info anchor="right" id="Commander" order="2" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
@@ -573,337 +786,374 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://C:/Python35/Lib/site-packages/django/conf/__init__.py" />
-    <entry file="das://d780d7c7-3557-49fa-abf6-655688927968/schema/main/table/api_topiccourse">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://F:/Downloads/第09套：全栈9期/Python全栈9期 （第十三到十五部分）：路飞 算法 爬虫 redis(wusir)/day113/day113课上所有/day113下午所有/luffy_django/luffy_django/settings.py" />
-    <entry file="file://F:/Downloads/第09套：全栈9期/Python全栈9期 （第十三到十五部分）：路飞 算法 爬虫 redis(wusir)/day113/day113课上所有/day113下午所有/luffy_django/redis测试（三）.py" />
-    <entry file="file://F:/Downloads/第09套：全栈9期/Python全栈9期 （第十三到十五部分）：路飞 算法 爬虫 redis(wusir)/day113/day113课上所有/day113下午所有/luffy_django/api/views/payment.py" />
-    <entry file="file://F:/Downloads/第09套：全栈9期/Python全栈9期 （第十三到十五部分）：路飞 算法 爬虫 redis(wusir)/day114/day114课上所有/luffy_django/api/models.py" />
-    <entry file="file://C:/Python35/Lib/site-packages/rest_framework/serializers.py" />
-    <entry file="file://$PROJECT_DIR$/api/serializers/auth.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="6" column="32" lean-forward="true" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/migrations/0001_initial.py">
+    <entry file="file://$PROJECT_DIR$/api/views/throttles.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/serializers/course.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="11" column="35" lean-forward="true" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/api/auth/permission.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="20" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="20" />
+        <state relative-caret-position="285">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/redis_pool.py">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/api/auth/throttles.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-        </state>
+        <state relative-caret-position="-223" />
       </provider>
     </entry>
-    <entry file="das://d780d7c7-3557-49fa-abf6-655688927968/schema/main/table/api_userinfo2">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/api/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/views/weixin.py">
+    <entry file="file://$PROJECT_DIR$/api/apps.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/cors.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="40" selection-start-line="40" selection-end-line="40" selection-end-column="44" />
-        </state>
+        <state relative-caret-position="-204" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="24" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="24" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/api/tests.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="das://d780d7c7-3557-49fa-abf6-655688927968/schema/main/table/api_token">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/views/account.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="48" column="28" lean-forward="true" selection-start-line="48" selection-start-column="28" selection-end-line="48" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/redis测试.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/redis测试（三）.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="6" column="22" lean-forward="true" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://d780d7c7-3557-49fa-abf6-655688927968/schema/main/table/django_content_type">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://d780d7c7-3557-49fa-abf6-655688927968/schema/main/table/api_pricepolicy">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/views/shoppingcar.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="33" column="46" selection-start-line="33" selection-start-column="46" selection-end-line="33" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/redis测试（二）.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="28" column="24" lean-forward="true" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://d780d7c7-3557-49fa-abf6-655688927968/schema/main/table/api_userinfo">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/api/throttles.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/api/admin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+        <state relative-caret-position="152">
+          <caret line="8" column="30" lean-forward="true" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="das://d780d7c7-3557-49fa-abf6-655688927968/schema/main/table/api_userauthtoken">
+    <entry file="file://$PROJECT_DIR$/api/models_bak.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="das://75946271-29ed-4904-a6de-a41a64f138d8/schema/main/table/auth_user">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://bbaa81d7-220c-44c2-bbed-38130a2ef180/schema/main/table/auth_user">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://c7f2b9df-81b8-41ea-a1fc-2b46caa9f694/schema/main/table/luffy_banner">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://b9231696-1bf6-484d-a8da-eb69555cb479/schema/main/table/luffy_banner">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://c7f2b9df-81b8-41ea-a1fc-2b46caa9f694/schema/main/table/luffy_nav">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://b9231696-1bf6-484d-a8da-eb69555cb479/schema/main/table/luffy_nav">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/serializers/home.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="33" lean-forward="true" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/serializers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python36/Lib/site-packages/rest_framework/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="123" column="8" selection-start-line="123" selection-start-column="8" selection-end-line="123" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/api/auth/auth.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="10" column="42" lean-forward="true" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://d780d7c7-3557-49fa-abf6-655688927968/schema/main/table/api_transactionrecord">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://d780d7c7-3557-49fa-abf6-655688927968/schema/main/table/api_account">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python36/Lib/site-packages/rest_framework/viewsets.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1007">
-          <caret line="50" column="8" selection-start-line="50" selection-start-column="8" selection-end-line="50" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://d780d7c7-3557-49fa-abf6-655688927968/schema/main/table/api_course">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://f9803aa9-3f06-49b6-b3fc-ae2c3974f1ee/schema/main/table/api_course">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://f9803aa9-3f06-49b6-b3fc-ae2c3974f1ee/schema/main/table/api_coursedetail">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://f9803aa9-3f06-49b6-b3fc-ae2c3974f1ee/schema/main/table/api_coursedetail_new">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://f9803aa9-3f06-49b6-b3fc-ae2c3974f1ee/schema/main/table/api_coursedetail_new_recommend_courses">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="26" column="6" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
+        <state relative-caret-position="76">
+          <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
           <folding>
-            <element signature="e#0#28#0" expanded="true" />
+            <element signature="e#0#60#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Python36/Lib/site-packages/django/utils/datastructures.py">
+    <entry file="file://C:/Python36/Lib/site-packages/rest_framework/fields.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="243" column="13" selection-start-line="243" selection-start-column="13" selection-end-line="243" selection-end-column="13" />
+        <state relative-caret-position="220">
+          <caret line="532" column="51" selection-start-line="532" selection-start-column="51" selection-end-line="532" selection-end-column="51" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index.html">
+    <entry file="file://C:/Python36/Lib/site-packages/rest_framework/serializers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+        <state relative-caret-position="201">
+          <caret line="462" column="11" selection-start-line="462" selection-start-column="11" selection-end-line="462" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/utils/pay.py">
+    <entry file="file://$PROJECT_DIR$/api/views/shoppingcar.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop_api/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="20" column="55" selection-start-line="20" selection-start-column="55" selection-end-line="20" selection-end-column="55" />
+        <state>
           <folding>
-            <element signature="e#642#682#0" expanded="true" />
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/serializers/news.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="17" column="31" lean-forward="true" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/views/newspapers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="86" column="30" lean-forward="true" selection-start-line="86" selection-start-column="30" selection-end-line="86" selection-end-column="30" />
+          <folding>
+            <element signature="e#228#250#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/api/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+        <state relative-caret-position="361">
+          <caret line="19" column="94" lean-forward="true" selection-start-line="19" selection-start-column="94" selection-end-line="19" selection-end-column="94" />
           <folding>
             <element signature="e#0#40#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Python36/Lib/site-packages/django/conf/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="533">
-          <caret line="200" selection-start-line="200" selection-end-line="200" />
+    <entry file="das://da2e3b14-2f0e-44f1-9f2c-5480f353cbaa/schema/main/table/luffy_user">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shop_api/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="143" column="49" selection-start-line="143" selection-start-column="43" selection-end-line="143" selection-end-column="49" />
+    <entry file="das://da2e3b14-2f0e-44f1-9f2c-5480f353cbaa/schema/main/table/api_coursesection">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/keys/alipay_public_2048.txt">
+    <entry file="das://b1529a25-53eb-44e0-bda0-9d8ed0de0db7/schema/main/table/luffy_banner">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://8dda9d9e-a467-49a2-aca7-f3c29287a8cc/schema/main/table/luffy_banner">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://8dda9d9e-a467-49a2-aca7-f3c29287a8cc/schema/main/table/luffy_nav">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://b1529a25-53eb-44e0-bda0-9d8ed0de0db7/schema/main/table/luffy_teacher.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
-          <caret line="1" column="296" selection-start-line="1" selection-start-column="39" selection-end-line="1" selection-end-column="296" />
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/keys/app_private_2048.txt">
+    <entry file="das://b1529a25-53eb-44e0-bda0-9d8ed0de0db7/schema/main/table/luffy_teacher">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/b1529a25-53eb-44e0-bda0-9d8ed0de0db7/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/views/paginations.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="1624" />
+        <state relative-caret-position="133">
+          <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/views/order.py">
+    <entry file="file://C:/Python36/Lib/site-packages/rest_framework/mixins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="38" column="8" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python36/Lib/site-packages/rest_framework/generics.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="200" column="21" selection-start-line="200" selection-start-column="21" selection-end-line="200" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/serializers/auth.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1026">
+          <caret line="99" selection-start-line="99" selection-end-line="99" />
+          <folding>
+            <element signature="e#45#54#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/APIResponse.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/adminx.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
-          <caret line="174" column="49" lean-forward="true" selection-start-line="174" selection-start-column="49" selection-end-line="174" selection-end-column="49" />
+          <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
           <folding>
-            <element signature="e#0#11#0" expanded="true" />
+            <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/views/payment.py">
+    <entry file="file://C:/Python36/Lib/site-packages/django/core/handlers/base.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="169" column="22" selection-start-line="169" selection-start-column="22" selection-end-line="169" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="164">
+          <caret line="112" selection-start-line="112" selection-end-line="112" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/views/alipay.py">
+    <entry file="file://$PROJECT_DIR$/api/serializers/course.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1406">
-          <caret line="74" column="27" lean-forward="true" selection-start-line="74" selection-start-column="27" selection-end-line="74" selection-end-column="27" />
+        <state relative-caret-position="399">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
           <folding>
-            <element signature="e#45#85#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/views/pay.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1197">
-          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#57#0" expanded="true" />
+            <element signature="e#0#21#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/api/views/course.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="32" column="38" lean-forward="true" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="38" />
+        <state relative-caret-position="-291">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+            <element signature="e#612#1672#0" />
+            <element signature="e#1704#2093#0" />
+            <element signature="e#2118#2883#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/views/weixin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="898">
+          <caret line="181" selection-start-line="181" selection-end-line="181" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop_api/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="47" column="27" lean-forward="true" selection-start-line="47" selection-start-column="27" selection-end-line="47" selection-end-column="27" />
+          <folding>
+            <element signature="e#642#695#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/bind.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="29" column="34" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="115" column="27" lean-forward="true" selection-start-line="115" selection-start-column="27" selection-end-line="115" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/views/user.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="207" column="20" selection-start-line="207" selection-start-column="20" selection-end-line="207" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+            <marker date="1567587367722" expanded="true" signature="2863:5962" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop_api/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-304">
+          <caret line="65" column="1" lean-forward="true" selection-start-line="65" selection-start-column="1" selection-end-line="65" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirement.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/views/pay.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="466">
+          <caret line="92" column="30" lean-forward="true" selection-start-line="92" selection-start-column="30" selection-end-line="92" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#57#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
