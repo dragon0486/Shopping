@@ -92,6 +92,7 @@
                         sessionStorage.token = response.data.results.token;
                         sessionStorage.user_id = response.data.results.username;
                         sessionStorage.user_name = response.data.results.mobile;
+                        console.log(sessionStorage)
                     }
 
                     // 页面跳转

@@ -10,7 +10,7 @@ import datetime
 
 class PaymentViewSet(APIView):
     authentication_classes =  [Authentication,]
-    conn = get_redis_connection("default")
+    # conn = get_redis_connection("default")
     def post(self,request,*args,**kwargs):
         ret = BaseResponse()
         try:

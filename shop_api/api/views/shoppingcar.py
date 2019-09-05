@@ -12,7 +12,7 @@ import json
 
 class ShoppingCarViewSet(APIView):
     authentication_classes = [Authentication,]
-    conn = get_redis_connection("default") # 类下的全局 下面用加self
+    # conn = get_redis_connection("default") # 类下的全局 下面用加self
 
     def post(self, request, *args, **kwargs):
         """

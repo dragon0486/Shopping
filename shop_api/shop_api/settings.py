@@ -101,6 +101,14 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+    },
+    'mysql': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': "luffy",
+        "USER": "czl",
+        "PASSWORD": "Czl1234.",
+        "HOST": "3.18.144.186",
+        "PORT": "3306",
     }
 }
 
@@ -200,6 +208,10 @@ CACHES = {
             "CONNECTION_POOL_KWARGS": {"max_connections": 100}
             # "PASSWORD": "密码",
         }
+    },
+    "memory": {
+        "BACKEND": "django.core.cache.backends.locmem.LocMemCache",
+        'LOCATION': 'unique-snowflake',
     }
 }
 SHOPPING_CAR_KEY = "luffy_shopping_car_%s_%s"

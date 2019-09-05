@@ -18,8 +18,8 @@
                         <img src="./assets/img/cart.svg" alt="">
                         <span><router-link to="/cart">购物车</router-link></span>
                     </div>
-                    <div v-if="this.$store.state.token">
-                        <a>{{this.$store.state.username}}</a>
+                    <div v-if="this.$store.state.token||session.token">
+                        <a>{{this.$store.state.username||session.user_name}}</a>
                         <a @click="doLogout">注销</a>
                     </div>
                     <div v-else>
@@ -45,7 +45,8 @@ export default {
           return{
             is_logout: true,
             page: '/index',
-            nav_list: []
+            nav_list: [],
+            session:sessionStorage
           }
       },
   components:{
@@ -58,7 +59,6 @@ export default {
       }).then(response => {
           this.nav_list = response.data.results
       })
-
   },
   methods:{
     doLogout(){

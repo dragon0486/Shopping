@@ -60,5 +60,6 @@
     img {
         text-align: center;
         height: 520px;
+        width: 100%;
     }
 </style>
