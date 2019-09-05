@@ -1,7 +1,8 @@
 <template>
     <div>
       <p><input type="text" placeholder="请输入用户名" v-model="username"/></p>
-      <p><input type="text" placeholder="请输入密码"  v-model="password"/></p>
+      <p><input type="password" placeholder="请输入密码"  v-model="password"/></p>
+      <p><input type="password" placeholder="请再次输入密码" @blur="checkPassword" v-model="password2"/></p>
       <button class="register_btn" @click="registerUserName">注册</button>
     </div>
 
@@ -14,10 +15,20 @@
         return {
           username:'',
           password:'',
+          password2:'',
+          pwd_confirm:false
         }
       },
       methods:{
         registerUserName(method){
+
+          if(!this.pwd_confirm){
+            this.$message({
+                    message: "两次输入密码不一致"
+                });
+                return false;
+          }
+
           var _this = this;
           this.$axios.request({
             url:this.$settings.BASE_HTTP+'/user/register/username/',
@@ -48,7 +59,18 @@
             console.log(error)
           })
         },
+        checkPassword() {
 
+            // 手机号码格式是否正确
+            if (this.password!=this.password2) {
+                this.$message({
+                    message: "两次输入密码不一致"
+                });
+                return false;
+            }else{
+              this.pwd_confirm=true
+            }
+        },
       }
     }
 </script>

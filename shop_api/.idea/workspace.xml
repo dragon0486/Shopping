@@ -3,16 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="f4043674-810f-414c-816a-a298bb81e358" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ShoppingCity/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../ShoppingCity/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ShoppingCity/src/components/Banner.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../ShoppingCity/src/components/Banner.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ShoppingCity/src/components/login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../ShoppingCity/src/components/login.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ShoppingCity/src/settings.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ShoppingCity/src/settings.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ShoppingCity/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ShoppingCity/dist/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ShoppingCity/dist/static/css/app.b75711ecbcd5894ad85174e215cef397.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ShoppingCity/dist/static/css/app.b75711ecbcd5894ad85174e215cef397.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ShoppingCity/dist/static/js/app.5e85cae05000947000ea.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ShoppingCity/dist/static/js/app.5e85cae05000947000ea.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ShoppingCity/dist/static/js/manifest.2ae2e69a05c33dfc65f8.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/../ShoppingCity/dist/static/js/manifest.2ae2e69a05c33dfc65f8.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ShoppingCity/src/components/username_register.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../ShoppingCity/src/components/username_register.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/migrations/0001_initial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/views/payment.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/views/payment.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/views/shoppingcar.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/views/shoppingcar.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop_api/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/shop_api/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop_api/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/shop_api/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/redis_pool.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/redis_pool.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -105,14 +104,14 @@
         <counts>
           <entry key="cell" value="75" />
           <entry key="ini" value="39" />
-          <entry key="py" value="1373" />
+          <entry key="py" value="1386" />
           <entry key="sql" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Ini" value="39" />
-          <entry key="Python" value="1373" />
+          <entry key="Python" value="1386" />
           <entry key="Scratch" value="92" />
         </counts>
       </usages-collector>
@@ -120,11 +119,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/shop_api/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="211" column="8" selection-start-line="211" selection-start-column="8" selection-end-line="211" selection-end-column="8" />
+            <state relative-caret-position="337">
+              <caret line="216" column="45" lean-forward="true" selection-start-line="216" selection-start-column="45" selection-end-line="216" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -196,7 +195,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api/views/pay.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="233">
@@ -280,10 +279,10 @@
         <option value="C:/Python36/Lib/site-packages/django/db/backends/mysql/base.py" />
         <option value="$PROJECT_DIR$/shop_api/__init__.py" />
         <option value="C:/Python36/Lib/site-packages/django/db/backends/mysql/operations.py" />
-        <option value="$PROJECT_DIR$/shop_api/settings.py" />
         <option value="$PROJECT_DIR$/api/views/shoppingcar.py" />
         <option value="$PROJECT_DIR$/api/views/payment.py" />
         <option value="$PROJECT_DIR$/utils/redis_pool.py" />
+        <option value="$PROJECT_DIR$/shop_api/settings.py" />
       </list>
     </option>
   </component>
@@ -695,7 +694,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="142" y="37" width="1570" height="945" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.19072847" />
@@ -978,13 +976,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shop_api/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="211" column="8" selection-start-line="211" selection-start-column="8" selection-end-line="211" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/api/views/user.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="692">
@@ -1013,6 +1004,13 @@
           <folding>
             <element signature="e#0#57#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop_api/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="216" column="45" lean-forward="true" selection-start-line="216" selection-start-column="45" selection-end-line="216" selection-end-column="45" />
         </state>
       </provider>
     </entry>
