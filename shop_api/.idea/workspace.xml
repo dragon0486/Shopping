@@ -3,8 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="f4043674-810f-414c-816a-a298bb81e358" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ShoppingCity/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ShoppingCity/dist/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ShoppingCity/dist/static/css/app.1dcfc31a18c98ccb98640614cc04c8eb.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ShoppingCity/dist/static/css/app.1dcfc31a18c98ccb98640614cc04c8eb.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ShoppingCity/dist/static/js/app.45d68654b0eca3b9a44b.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ShoppingCity/dist/static/js/app.45d68654b0eca3b9a44b.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ShoppingCity/dist/static/js/manifest.2ae2e69a05c33dfc65f8.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/../ShoppingCity/dist/static/js/manifest.2ae2e69a05c33dfc65f8.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/migrations/0001_initial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop_api/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/shop_api/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -97,13 +102,13 @@
         <counts>
           <entry key="cell" value="75" />
           <entry key="ini" value="39" />
-          <entry key="py" value="1247" />
+          <entry key="py" value="1259" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Ini" value="39" />
-          <entry key="Python" value="1247" />
+          <entry key="Python" value="1259" />
           <entry key="Scratch" value="75" />
         </counts>
       </usages-collector>
@@ -114,8 +119,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/shop_api/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="69" column="13" selection-start-line="69" selection-start-column="13" selection-end-line="69" selection-end-column="21" />
+            <state relative-caret-position="399">
+              <caret line="75" column="5" lean-forward="true" selection-start-line="75" selection-start-column="5" selection-end-line="75" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -964,8 +969,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/shop_api/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="69" column="13" selection-start-line="69" selection-start-column="13" selection-end-line="69" selection-end-column="21" />
+        <state relative-caret-position="399">
+          <caret line="75" column="5" lean-forward="true" selection-start-line="75" selection-start-column="5" selection-end-line="75" selection-end-column="5" />
         </state>
       </provider>
     </entry>
