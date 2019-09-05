@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f4043674-810f-414c-816a-a298bb81e358" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ShoppingCity/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ShoppingCity/dist/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ShoppingCity/dist/static/css/app.1dcfc31a18c98ccb98640614cc04c8eb.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ShoppingCity/dist/static/css/app.1dcfc31a18c98ccb98640614cc04c8eb.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ShoppingCity/dist/static/js/app.45d68654b0eca3b9a44b.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ShoppingCity/dist/static/js/app.45d68654b0eca3b9a44b.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ShoppingCity/dist/static/js/app.f795a4cbae0590942aa6.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ShoppingCity/dist/static/js/app.f795a4cbae0590942aa6.js.map" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../ShoppingCity/dist/static/js/manifest.2ae2e69a05c33dfc65f8.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/../ShoppingCity/dist/static/js/manifest.2ae2e69a05c33dfc65f8.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ShoppingCity/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ShoppingCity/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ShoppingCity/src/settings.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ShoppingCity/src/settings.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/migrations/0001_initial.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -708,12 +707,12 @@
       <window_info anchor="bottom" id="Find" order="7" weight="0.32857144" />
       <window_info anchor="bottom" id="Message" order="8" />
       <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
-      <window_info anchor="bottom" id="Run" order="10" weight="0.24396442" />
+      <window_info active="true" anchor="bottom" id="Run" order="10" visible="true" weight="0.31130877" />
       <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="13" />
       <window_info anchor="right" id="SciView" order="0" />
-      <window_info active="true" anchor="right" id="Database" order="1" visible="true" weight="0.18820411" />
+      <window_info anchor="right" id="Database" order="1" visible="true" weight="0.18820411" />
       <window_info anchor="right" id="Commander" order="2" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
