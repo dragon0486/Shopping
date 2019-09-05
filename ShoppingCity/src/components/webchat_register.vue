@@ -15,7 +15,7 @@
       created:function () {
         var _this = this;
         this.$axios.request({
-            url:'http://127.0.0.1:8000/user/register/webchat/',
+            url:this.$settings.BASE_HTTP+'/user/register/webchat/',
             method:'get',    // 不是methods
           }).then(function (ret) {
             if (ret.status == 200) {
@@ -30,7 +30,7 @@
           check_login(){
             var _this = this;
         this.$axios.request({
-            url:'http://127.0.0.1:8000/user/register/webchat/',
+            url:this.$settings.BASE_HTTP+'/user/register/webchat/',
             method:'POST',    // 不是methods
           }).then(function (ret) {
             console.log(ret)
