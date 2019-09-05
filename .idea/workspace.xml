@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7c76d546-777a-4364-8b02-9bead0b3954b" name="Default" comment="new version of online shopping">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShoppingCity/src/components/login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/ShoppingCity/src/components/login.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShoppingCity/src/components/webchat_register.vue" beforeDir="false" afterPath="$PROJECT_DIR$/ShoppingCity/src/components/webchat_register.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop_api/.idea/dataSources/d780d7c7-3557-49fa-abf6-655688927968.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop_api/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shop_api/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shop_api/api/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/shop_api/api/migrations/0001_initial.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,7 +27,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="gitignore" value="2" />
+          <entry key="gitignore" value="3" />
           <entry key="js" value="9" />
           <entry key="json" value="1" />
           <entry key="log" value="1" />
@@ -47,7 +43,7 @@
           <entry key="JSON" value="1" />
           <entry key="JavaScript" value="9" />
           <entry key="Markdown" value="1" />
-          <entry key="PLAIN_TEXT" value="7" />
+          <entry key="PLAIN_TEXT" value="8" />
           <entry key="Python" value="2" />
           <entry key="SVG" value="1" />
           <entry key="Vue.js" value="66" />
@@ -159,7 +155,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ShoppingCity/src/components/login.vue">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-160">
@@ -167,6 +163,15 @@
               <folding>
                 <element signature="n#style#0;n#img#0;n#div#3;n#div#1;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ShoppingCity/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -214,6 +219,7 @@
         <option value="$PROJECT_DIR$/ShoppingCity/src/components/micro.vue" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/ShoppingCity/src/components/login.vue" />
+        <option value="$PROJECT_DIR$/ShoppingCity/.gitignore" />
       </list>
     </option>
   </component>
@@ -390,11 +396,26 @@
       <option name="project" value="LOCAL" />
       <updated>1567598995497</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="new version of online shopping">
+      <created>1567648819051</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1567648819051</updated>
+    </task>
+    <task id="LOCAL-00011" summary="new version of online shopping">
+      <created>1567649278533</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1567649278533</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="171" y="52" width="1538" height="927" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21109608" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -410,7 +431,7 @@
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.22106633" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="11" visible="true" weight="0.25747725" />
+      <window_info anchor="bottom" id="Version Control" order="11" visible="true" weight="0.40962288" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -441,9 +462,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="new version of online shopping" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ShoppingCity/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/ShoppingCity/.postcssrc.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -675,6 +693,13 @@
           <folding>
             <element signature="n#style#0;n#img#0;n#div#3;n#div#1;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ShoppingCity/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
         </state>
       </provider>
     </entry>
