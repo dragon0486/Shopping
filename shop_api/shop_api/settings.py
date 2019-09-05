@@ -149,7 +149,7 @@ STATICFILES_DIRS = (
 REST_FRAMEWORK = {  # 配置渲染器
     # 'DEFAULT_RENDERER_CLASSES':['rest_framework.renderers.JSONRenderer'],
     'DEFAULT_VERSIONING_CLASS':'rest_framework.versioning.QueryParameterVersioning',
-    'ALLOWED_VERSIONS':['v1','v2'],
+    # 'ALLOWED_VERSIONS':['v1','v2'],
     "VERSION_PARAM":'version',
     'DEFAULT_VERSION':'v1',
     "DEFAULT_PAGINATION_CLASS": 'rest_framework.pagination.PageNumberPagination',

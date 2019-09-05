@@ -46,7 +46,7 @@ urlpatterns = [
     url(r'^course/chapters/$', course.CourseChapterListAPIView.as_view()),
 
     url(r'^order/$', pay.OrderAPIView.as_view()),
-    url(r'^order/aliback/$', pay.AlibackAPIView.as_view()),
+    url(r'^order/aliback/', pay.AlibackAPIView.as_view()),
     #####
 
     url(r'^pay/$', pay.index),

@@ -2,15 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c76d546-777a-4364-8b02-9bead0b3954b" name="Default" comment="new version of online shopping">
-      <change afterPath="$PROJECT_DIR$/ShoppingCity/dist/static/js/app.1c3ea7cf406eb89513c2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShoppingCity/dist/static/js/app.1c3ea7cf406eb89513c2.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShoppingCity/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ShoppingCity/dist/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShoppingCity/dist/static/js/app.94a67c29f232cdb379a5.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShoppingCity/dist/static/js/app.94a67c29f232cdb379a5.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShoppingCity/dist/static/js/manifest.2ae2e69a05c33dfc65f8.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/ShoppingCity/dist/static/js/manifest.2ae2e69a05c33dfc65f8.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingCity/src/settings.js" beforeDir="false" afterPath="$PROJECT_DIR$/ShoppingCity/src/settings.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shop_api/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shop_api/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shop_api/api/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/shop_api/api/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop_api/api/views/pay.py" beforeDir="false" afterPath="$PROJECT_DIR$/shop_api/api/views/pay.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop_api/shop_api/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/shop_api/shop_api/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop_api/shop_api/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/shop_api/shop_api/urls.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -59,14 +57,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gitignore" value="33" />
-          <entry key="js" value="218" />
+          <entry key="js" value="228" />
           <entry key="txt" value="52" />
           <entry key="vue" value="2184" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JavaScript" value="218" />
+          <entry key="JavaScript" value="228" />
           <entry key="PLAIN_TEXT" value="118" />
           <entry key="Vue.js" value="2151" />
         </counts>
@@ -112,8 +110,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ShoppingCity/src/settings.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="76">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
@@ -499,11 +497,26 @@
       <option name="project" value="LOCAL" />
       <updated>1567652535511</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="new version of online shopping">
+      <created>1567653162673</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1567653162673</updated>
+    </task>
+    <task id="LOCAL-00024" summary="new version of online shopping">
+      <created>1567653361251</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1567653361251</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="171" y="52" width="1538" height="927" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21109608" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -803,8 +816,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ShoppingCity/src/settings.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="76">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
