@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f4043674-810f-414c-816a-a298bb81e358" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/migrations/0001_initial.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shop_api/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/shop_api/settings.py" afterDir="false" />
     </list>
@@ -96,13 +97,13 @@
         <counts>
           <entry key="cell" value="75" />
           <entry key="ini" value="39" />
-          <entry key="py" value="1274" />
+          <entry key="py" value="1279" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Ini" value="39" />
-          <entry key="Python" value="1274" />
+          <entry key="Python" value="1279" />
           <entry key="Scratch" value="75" />
         </counts>
       </usages-collector>
@@ -113,8 +114,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/shop_api/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="142" column="23" lean-forward="true" selection-start-line="142" selection-start-column="23" selection-end-line="142" selection-end-column="23" />
+            <state relative-caret-position="304">
+              <caret line="73" column="30" lean-forward="true" selection-start-line="73" selection-start-column="30" selection-end-line="73" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -808,6 +809,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="349">
           <caret line="86" column="30" lean-forward="true" selection-start-line="86" selection-start-column="30" selection-end-line="86" selection-end-column="30" />
+          <folding>
+            <element signature="e#228#250#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -877,6 +881,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
           <caret line="29" column="34" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -963,8 +970,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/shop_api/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="142" column="23" lean-forward="true" selection-start-line="142" selection-start-column="23" selection-end-line="142" selection-end-column="23" />
+        <state relative-caret-position="304">
+          <caret line="73" column="30" lean-forward="true" selection-start-line="73" selection-start-column="30" selection-end-line="73" selection-end-column="30" />
         </state>
       </provider>
     </entry>

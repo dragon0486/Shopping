@@ -68,7 +68,7 @@ CORS_ORIGIN_WHITELIST = [
 	'http://localhost:8080',
     'http://127.0.0.1:8080',
     'http://3.18.144.186:80',
-    'http://3.18.144.186',
+    'http://3.18.144.186:8080',
 ]
 
 ROOT_URLCONF = 'shop_api.urls'
