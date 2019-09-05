@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c76d546-777a-4364-8b02-9bead0b3954b" name="Default" comment="new version of online shopping">
+      <change afterPath="$PROJECT_DIR$/ShoppingCity/dist/static/js/app.1c3ea7cf406eb89513c2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShoppingCity/dist/static/js/app.1c3ea7cf406eb89513c2.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShoppingCity/src/settings.js" beforeDir="false" afterPath="$PROJECT_DIR$/ShoppingCity/src/settings.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingCity/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ShoppingCity/dist/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingCity/dist/static/js/app.94a67c29f232cdb379a5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingCity/dist/static/js/app.94a67c29f232cdb379a5.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingCity/dist/static/js/manifest.2ae2e69a05c33dfc65f8.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/ShoppingCity/dist/static/js/manifest.2ae2e69a05c33dfc65f8.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shop_api/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shop_api/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shop_api/api/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/shop_api/api/migrations/0001_initial.py" afterDir="false" />
     </list>
@@ -87,7 +92,7 @@
         <entry file="file://$PROJECT_DIR$/ShoppingCity/package.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="76">
-              <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+              <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -107,8 +112,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ShoppingCity/src/settings.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="16" lean-forward="true" selection-start-column="16" selection-end-column="16" />
+            <state relative-caret-position="57">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -487,12 +492,18 @@
       <option name="project" value="LOCAL" />
       <updated>1567651961500</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="new version of online shopping">
+      <created>1567652535511</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1567652535511</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="171" y="52" width="1538" height="927" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21109608" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -776,7 +787,7 @@
     <entry file="file://$PROJECT_DIR$/ShoppingCity/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
-          <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -792,8 +803,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ShoppingCity/src/settings.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="16" lean-forward="true" selection-start-column="16" selection-end-column="16" />
+        <state relative-caret-position="57">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
