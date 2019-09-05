@@ -16,8 +16,8 @@ def aliPay():
     # 支付相关配置
     APPID = "2016092200570009"
     # APPID = "2016092200570009" # 线上的应用需要支付宝审核通过后appid才生效
-    NOTIFY_URL = "http://127.0.0.1:8000/order/aliback/"   # 需公网IP
-    RETURN_URL = "http://127.0.0.1:8000/order/aliback/"
+    NOTIFY_URL = "http://3.18.144.186:8000/order/aliback/"   # 需公网IP
+    RETURN_URL = "http://3.18.144.186:8000/order/aliback/"
     PRI_KEY_PATH = "api/keys/app_private_2048.txt"
     PUB_KEY_PATH = "api/keys/alipay_public_2048.txt"
 
