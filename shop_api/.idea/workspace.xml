@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="f4043674-810f-414c-816a-a298bb81e358" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ShoppingCity/src/settings.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ShoppingCity/src/settings.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -76,7 +78,7 @@
           <entry key="luffy_user" value="1" />
           <entry key="png" value="1" />
           <entry key="py" value="113" />
-          <entry key="sql" value="3" />
+          <entry key="sql" value="4" />
           <entry key="txt" value="3" />
         </counts>
       </usages-collector>
@@ -89,7 +91,7 @@
           <entry key="PLAIN_TEXT" value="3" />
           <entry key="Python" value="113" />
           <entry key="SQL" value="1" />
-          <entry key="Scratch" value="2" />
+          <entry key="Scratch" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -97,13 +99,14 @@
           <entry key="cell" value="75" />
           <entry key="ini" value="39" />
           <entry key="py" value="1323" />
+          <entry key="sql" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Ini" value="39" />
           <entry key="Python" value="1323" />
-          <entry key="Scratch" value="75" />
+          <entry key="Scratch" value="92" />
         </counts>
       </usages-collector>
     </session>
@@ -113,17 +116,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/shop_api/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="160" column="5" lean-forward="true" selection-start-line="160" selection-start-column="5" selection-end-line="160" selection-end-column="5" />
+            <state relative-caret-position="280">
+              <caret line="101" column="33" selection-start-line="101" selection-start-column="33" selection-end-line="101" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/b1529a25-53eb-44e0-bda0-9d8ed0de0db7/console.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/api/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2052">
-              <caret line="115" column="27" selection-start-line="115" selection-start-column="27" selection-end-line="115" selection-end-column="27" />
+            <state relative-caret-position="285">
+              <caret line="198" column="19" selection-start-line="198" selection-start-column="19" selection-end-line="198" selection-end-column="19" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -168,7 +180,7 @@
         <entry file="file://$PROJECT_DIR$/api/views/user.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-786">
-              <caret line="170" column="42" lean-forward="true" selection-start-line="170" selection-start-column="42" selection-end-line="170" selection-end-column="42" />
+              <caret line="170" column="42" selection-start-line="170" selection-start-column="42" selection-end-line="170" selection-end-column="42" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
                 <marker date="1567587367722" expanded="true" signature="2863:5962" ph="..." />
@@ -189,11 +201,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api/views/pay.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
-              <caret line="23" column="17" lean-forward="true" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+            <state relative-caret-position="366">
+              <caret line="32" selection-start-line="32" selection-end-line="32" />
               <folding>
                 <element signature="e#0#57#0" expanded="true" />
               </folding>
@@ -205,7 +217,7 @@
         <entry file="file://$PROJECT_DIR$/uwsgi.ini">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-209">
-              <caret line="7" column="29" lean-forward="true" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+              <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -275,13 +287,13 @@
         <option value="$PROJECT_DIR$/api/urls.py" />
         <option value="$PROJECT_DIR$/api/adminx.py" />
         <option value="$PROJECT_DIR$/api/views/course.py" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/b1529a25-53eb-44e0-bda0-9d8ed0de0db7/console.sql" />
         <option value="$PROJECT_DIR$/api/views/user.py" />
         <option value="$PROJECT_DIR$/api/serializers/course.py" />
         <option value="$PROJECT_DIR$/uwsgi.ini" />
         <option value="$PROJECT_DIR$/shop_api/urls.py" />
         <option value="$PROJECT_DIR$/shop_api/settings.py" />
         <option value="$PROJECT_DIR$/api/views/pay.py" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/b1529a25-53eb-44e0-bda0-9d8ed0de0db7/console.sql" />
       </list>
     </option>
   </component>
@@ -352,6 +364,12 @@
               <item name="shop_api" type="b2602c69:ProjectViewProjectNode" />
               <item name="shop_api" type="462c0819:PsiDirectoryNode" />
               <item name="media" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shop_api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shop_api" type="462c0819:PsiDirectoryNode" />
+              <item name="media" type="462c0819:PsiDirectoryNode" />
+              <item name="courses" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="shop_api" type="b2602c69:ProjectViewProjectNode" />
@@ -687,7 +705,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="210" y="33" width="1569" height="945" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.19085488" />
@@ -702,7 +719,7 @@
       <window_info anchor="bottom" id="Find" order="7" weight="0.32857144" />
       <window_info anchor="bottom" id="Message" order="8" />
       <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
-      <window_info active="true" anchor="bottom" id="Run" order="10" visible="true" weight="0.31130877" />
+      <window_info anchor="bottom" id="Run" order="10" weight="0.31130877" />
       <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="13" />
@@ -746,6 +763,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="8" column="30" lean-forward="true" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -831,9 +851,6 @@
     <entry file="das://8dda9d9e-a467-49a2-aca7-f3c29287a8cc/schema/main/table/luffy_nav" />
     <entry file="das://b1529a25-53eb-44e0-bda0-9d8ed0de0db7/schema/main/table/luffy_teacher.sql" />
     <entry file="das://b1529a25-53eb-44e0-bda0-9d8ed0de0db7/schema/main/table/luffy_teacher" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/b1529a25-53eb-44e0-bda0-9d8ed0de0db7/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/api/views/paginations.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -895,16 +912,6 @@
     <entry file="file://$PROJECT_DIR$/shop_api/wsgi.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2052">
-          <caret line="115" column="27" selection-start-line="115" selection-start-column="27" selection-end-line="115" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/api/adminx.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
@@ -928,14 +935,14 @@
     <entry file="file://$PROJECT_DIR$/uwsgi.ini">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-209">
-          <caret line="7" column="29" lean-forward="true" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/api/views/user.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-786">
-          <caret line="170" column="42" lean-forward="true" selection-start-line="170" selection-start-column="42" selection-end-line="170" selection-end-column="42" />
+          <caret line="170" column="42" selection-start-line="170" selection-start-column="42" selection-end-line="170" selection-end-column="42" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
             <marker date="1567587367722" expanded="true" signature="2863:5962" ph="..." />
@@ -960,19 +967,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shop_api/settings.py">
+    <entry file="file://$PROJECT_DIR$/api/views/pay.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="160" column="5" lean-forward="true" selection-start-line="160" selection-start-column="5" selection-end-line="160" selection-end-column="5" />
+        <state relative-caret-position="366">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="e#0#57#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/views/pay.py">
+    <entry file="file://$PROJECT_DIR$/shop_api/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="23" column="17" lean-forward="true" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+        <state relative-caret-position="280">
+          <caret line="101" column="33" selection-start-line="101" selection-start-column="33" selection-end-line="101" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/b1529a25-53eb-44e0-bda0-9d8ed0de0db7/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="198" column="19" selection-start-line="198" selection-start-column="19" selection-end-line="198" selection-end-column="19" />
           <folding>
-            <element signature="e#0#57#0" expanded="true" />
+            <element signature="e#0#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
