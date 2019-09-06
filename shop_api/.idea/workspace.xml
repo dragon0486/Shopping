@@ -2,14 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f4043674-810f-414c-816a-a298bb81e358" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/../ShoppingCity/dist/static/js/app.f54c5eebef4affb04484.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingCity/dist/static/js/app.f54c5eebef4affb04484.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ShoppingCity/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ShoppingCity/dist/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ShoppingCity/dist/static/css/app.b75711ecbcd5894ad85174e215cef397.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ShoppingCity/dist/static/css/app.b75711ecbcd5894ad85174e215cef397.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ShoppingCity/dist/static/js/app.5e85cae05000947000ea.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ShoppingCity/dist/static/js/app.5e85cae05000947000ea.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ShoppingCity/dist/static/js/app.2a5b19c558749a8a202b.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ShoppingCity/dist/static/js/app.2a5b19c558749a8a202b.js.map" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../ShoppingCity/dist/static/js/manifest.2ae2e69a05c33dfc65f8.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/../ShoppingCity/dist/static/js/manifest.2ae2e69a05c33dfc65f8.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ShoppingCity/src/components/username_register.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../ShoppingCity/src/components/username_register.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ShoppingCity/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../ShoppingCity/src/App.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/migrations/0001_initial.py" afterDir="false" />
     </list>
@@ -694,6 +695,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="142" y="37" width="1570" height="945" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.19072847" />
@@ -749,6 +751,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="10" column="33" lean-forward="true" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

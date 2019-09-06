@@ -24,7 +24,7 @@
                     </div>
                     <div v-else>
                         <router-link to="/login">登录</router-link>&nbsp;|&nbsp;
-                        <router-link to="/signup">注册</router-link>
+                        <router-link to="/signup/phone">注册</router-link>
                     </div>
                 </div>
             </div>

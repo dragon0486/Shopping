@@ -15,3 +15,5 @@ yarn-error.log*
 
 shop_api/.idea
 ShoppingCity/.idea
+.idea/
+shop_api/api/migrations
