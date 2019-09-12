@@ -10,12 +10,6 @@ export default new Vuex.Store({
     username:Cookie.get('username'),
     token:Cookie.get('token'),
     mobile:Cookie.get('mobile'),
-    apiList:{
-      course: 'http://127.0.0.1:8000/api/v1/course/',
-      courseDetail: 'http://127.0.0.1:8000/api/v1/course/',
-      auth: 'http://127.0.0.1:8000/api/v1/auth/',
-      micro: 'http://127.0.0.1:8000/api/v1/micro/'
-    }
   },
   mutations: {
     // 组件中通过 this.$store.commit(saveToken,参数)  调用
